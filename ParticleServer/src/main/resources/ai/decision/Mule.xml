@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 馬騾的配置 -->
+<decision id="Mule" binder="minecraft:mule">
+    <!-- 随机选择下面子节点执行 -->
+    <branch type="WeightsProbability">
+        <!-- 随机看向周围的GM玩家 -->
+        <branch type="FollowSequence" weight="3">
+            <leaf type="NearPlayerSeeker"/>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FocusEntity"/>
+            </leaf>
+        </branch>
+        <!-- 随机走向周围的某个地点 -->
+        <branch type="FollowSequence" weight="2">
+            <leaf type="RandomMovePositionSeeker"/>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="MoveToPosition"/>
+            </leaf>
+        </branch>
+        <!-- 随机看向周围某个地点 -->
+        <branch type="FollowSequence" weight="7">
+            <leaf type="RandomPositionSeeker"/>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FocusPosition"/>
+            </leaf>
+        </branch>
+    </branch>
+</decision>

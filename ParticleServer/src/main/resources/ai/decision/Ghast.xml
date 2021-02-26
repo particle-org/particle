@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 恶魂的配置 -->
+<decision id="Ghast" binder="minecraft:ghast">
+    <!-- 随机选择下面子节点执行 -->
+    <branch type="WeightsProbability">
+        <!-- 随机飞向周围的某个地点 -->
+        <branch type="FollowSequence" weight="2">
+            <leaf type="RandomMovePositionSeeker">
+                <config key="SeekHeight" val="True"/>
+            </leaf>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FlyToPosition"/>
+            </leaf>
+        </branch>
+        <!-- 随机看向周围某个地点 -->
+        <branch type="FollowSequence" weight="3">
+            <leaf type="RandomPositionSeeker">
+                <config key="SeekHeight" val="True"/>
+            </leaf>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FocusPosition"/>
+            </leaf>
+        </branch>
+        <!-- 搜索可攻击玩家 -->
+        <!--        <branch type="FollowSequence" weight="5">-->
+        <!--            <leaf type="NearSurvivorTargetSeeker">-->
+        <!--                <config key="CheckDistance" val="64F" />-->
+        <!--            </leaf>-->
+        <!--            <leaf type="EntityDecisionMaker">-->
+        <!--                <config key="Decision" val="ShootTarget" />-->
+        <!--            </leaf>-->
+        <!--        </branch>-->
+    </branch>
+</decision>

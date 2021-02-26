@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="TargetFollowJump" binder="TargetFollowJump">
+    <branch type="FollowSequence">
+        <branch type="FollowSelector">
+            <branch type="ReverseNode">
+                <leaf type="TargetPlayerStateCheck"/>
+            </branch>
+            <leaf type="TargetDeadCheck"/>
+            <leaf type="TargetLostCheck"/>
+        </branch>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+    <branch type="FollowSequence">
+        <!-- 路径检查 -->
+        <leaf type="EntityMoveIntervalController">
+            <config key="MoveInterval" val="500L"/>
+        </leaf>
+        <leaf type="PositionTargetMakerByEntity"/>
+        <leaf type="FollowPositionByPassChoose"/>
+        <branch type="ReverseNode">
+            <!-- 若抵達位置 -->
+            <leaf type="EntityArrivedPositionCheck">
+                <config key="CheckDistance" val="2F"/>
+            </leaf>
+        </branch>
+        <!-- 移动 -->
+        <leaf type="EntityJumpToPosition">
+            <config key="jumpForce" val="6F"/>
+            <config key="jumpHeight" val="3F"/>
+        </leaf>
+        <leaf type="EntitySwimAction"/>
+        <!-- 盯着目标 -->
+        <leaf type="EntityFocuseTarget"/>
+        <branch type="ReverseNode">
+            <leaf type="EntityTargetItemInHandCheck"/>
+        </branch>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+</action>

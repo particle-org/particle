@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 蠹虫的配置 -->
+<decision id="Silverfish" binder="minecraft:silverfish">
+    <!-- 顺序执行子节点 -->
+    <branch type="FollowSequence">
+        <!-- 搜索周围伙伴攻击的玩家 -->
+        <leaf type="NearFriendsTargetSeeker">
+            <config key="FriendsNetworkId" val="36"/>
+        </leaf>
+        <!-- 若搜索成功，则攻击该玩家 -->
+        <leaf type="EntityDecisionMaker">
+            <config key="Decision" val="TargetAttack"/>
+        </leaf>
+    </branch>
+    <branch type="FollowSelector">
+        <!-- 移动至附近的岩石中
+        <branch type="FollowSequence">
+            <leaf type="NearBlockSeeker">
+                <config key="TargetBlock" val="minecraft:stone" />
+            </leaf>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="HideIntoBlock" />
+            </leaf>
+        </branch>-->
+        <!-- 随机移动 -->
+        <branch type="FollowSequence">
+            <leaf type="RandomMovePositionSeeker"/>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="MoveToPosition"/>
+            </leaf>
+        </branch>
+    </branch>
+</decision>

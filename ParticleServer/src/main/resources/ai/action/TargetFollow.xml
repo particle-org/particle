@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="TargetFollow" binder="TargetFollow">
+    <branch type="FollowSequence">
+        <branch type="FollowSelector">
+            <branch type="ReverseNode">
+                <leaf type="TargetPlayerStateCheck"/>
+            </branch>
+            <leaf type="TargetDeadCheck"/>
+            <leaf type="TargetLostCheck"/>
+        </branch>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+    <branch type="FollowSequence">
+        <!-- 追踪 -->
+        <leaf type="PositionTargetMakerByEntity"/>
+        <leaf type="FollowPositionByPassChoose"/>
+        <!-- 移动 -->
+        <branch type="ReverseNode">
+            <!-- 若抵達位置 -->
+            <leaf type="EntityArrivedPositionCheck">
+                <config key="CheckDistance" val="2F"/>
+            </leaf>
+        </branch>
+        <leaf type="EntityMoveToPosition"/>
+        <leaf type="EntitySwimAction"/>
+        <!-- 盯着目标 -->
+        <leaf type="EntityFocuseTarget"/>
+        <branch type="ReverseNode">
+            <leaf type="EntityTargetItemInHandCheck"/>
+        </branch>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+</action>

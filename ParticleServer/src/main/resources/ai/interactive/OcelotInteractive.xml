@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 豬被交互的配置 -->
+<interactive id="Feeding" binder="minecraft:ocelot">
+    <branch type="FollowSequence">
+        <leaf type="EntityEstrusCoolDownCheck">
+            <config key="StateInterval" val="300000L"/>
+        </leaf>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+    <!-- 顺序执行子节点 -->
+    <branch type="FollowSequence">
+        <!-- 檢查是否 baby -->
+        <leaf type="EntityBabyCheck"/>
+        <!-- 检查手持小麥 -->
+        <leaf type="EntityTargetHoldItemCheck">
+            <config key="Weapon" val="minecraft:pufferfish"/>
+            <config key="Weapon" val="minecraft:clownfish"/>
+            <config key="Weapon" val="minecraft:salmon"/>
+        </leaf>
+        <leaf type="EntitySwimAction"/>
+        <leaf type="EntityFocuseTarget"/>
+        <!-- 成長 -->
+        <leaf type="EntityGrowAction">
+            <config key="growRate" val="10"/>
+        </leaf>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+    <branch type="FollowSequence">
+        <!-- 检查手持小麥 -->
+        <leaf type="EntityTargetHoldItemCheck">
+            <config key="Weapon" val="minecraft:pufferfish"/>
+            <config key="Weapon" val="minecraft:clownfish"/>
+            <config key="Weapon" val="minecraft:salmon"/>
+        </leaf>
+        <leaf type="EntitySwimAction"/>
+        <leaf type="EntityFocuseTarget"/>
+        <!-- 發情 -->
+        <leaf type="EntityEstrusAction"/>
+        <leaf type="EntityBlindDateAction">
+            <config key="CheckDistance" val="16F"/>
+        </leaf>
+        <leaf type="EntityDecisionMaker">
+            <config key="Decision" val="TargetBlindDate"/>
+        </leaf>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+</interactive>

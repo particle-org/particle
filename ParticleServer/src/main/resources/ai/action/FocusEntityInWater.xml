@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="FocusEntityInWater" binder="FocusEntityInWater">
+    <branch type="FollowSelector">
+        <branch type="FollowSequence">
+            <leaf type="EntityStayInStateCheck"/>
+            <leaf type="EntityFocuseTarget"/>
+        </branch>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+</action>

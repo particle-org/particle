@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="CaveSpiderAttack" binder="CaveSpiderAttack">
+    <branch type="FollowSelector">
+        <branch type="FollowSequence">
+            <branch type="FollowSelector">
+                <branch type="ReverseNode">
+                    <leaf type="TargetPlayerStateCheck"/>
+                </branch>
+                <leaf type="TargetDeadCheck"/>
+                <leaf type="TargetLostCheck">
+                    <config key="TraceDistance" val="16F"/>
+                </leaf>
+            </branch>
+            <leaf type="AbortdActionTree"/>
+        </branch>
+        <branch type="FollowSequence">
+            <!-- 追踪 -->
+            <leaf type="PositionTargetMakerByEntity"/>
+            <branch type="FollowSelector">
+                <branch type="FollowSequence">
+                    <leaf type="FollowPositionChoose"/>
+                    <leaf type="EntityMoveToPosition"/>
+                </branch>
+                <branch type="FollowSequence">
+                    <leaf type="FollowPositionFlutterChoose"/>
+                    <leaf type="EntityClimbToPosition"/>
+                </branch>
+            </branch>
+            <!-- 盯着目标 -->
+            <leaf type="EntityFocuseTarget"/>
+            <!-- 攻击 -->
+            <leaf type="TargetNearCheck">
+                <config key="CheckDistance" val="1.5F"/>
+            </leaf>
+            <leaf type="EntityJumpAttackTarget"/>
+            <leaf type="EntityEffectAttackTarget">
+                <config key="EffectType" val="POISON"/>
+            </leaf>
+        </branch>
+    </branch>
+</action>

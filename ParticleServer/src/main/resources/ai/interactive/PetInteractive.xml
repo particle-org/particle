@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 宠物交互的配置 -->
+<interactive id="PetInteractive" binder="PetInteractive">
+    <branch type="FollowSequence">
+        <leaf type="EntityLinkMountAction"/>
+        <leaf type="RemoveActionTree"/>
+    </branch>
+</interactive>

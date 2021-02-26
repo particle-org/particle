@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="ZombieAttack" binder="ZombieAttack">
+    <branch type="FollowSelector">
+        <branch type="FollowSequence">
+            <branch type="FollowSelector">
+                <branch type="ReverseNode">
+                    <leaf type="TargetPlayerStateCheck"/>
+                </branch>
+                <leaf type="TargetDeadCheck"/>
+                <leaf type="TargetLostCheck">
+                    <config key="TraceDistance" val="32F"/>
+                </leaf>
+            </branch>
+            <leaf type="AbortdActionTree"/>
+        </branch>
+        <branch type="FollowSequence">
+            <!-- 判断距离，如果远距离则按找路线追踪 -->
+            <branch type="FollowSelector">
+                <!-- 路径刷新，如果刷新失败，则直接追踪 -->
+                <leaf type="EntityRoadUpdater"/>
+                <leaf type="AbortdActionTree"/>
+                <!-- <leaf type="PositionTargetMakerByEntity" /> -->
+            </branch>
+            <!--            <leaf type="EntityRoadPointsMark" />-->
+            <!-- 追踪 -->
+            <leaf type="FollowPositionByPassChoose"/>
+            <!-- 移动 -->
+            <leaf type="EntitySwimAction"/>
+            <leaf type="EntityMoveToPosition"/>
+            <!-- 盯着目标 -->
+            <leaf type="EntityFocuseTarget"/>
+            <!-- 攻击 -->
+            <leaf type="TargetNearCheck">
+                <config key="CheckDistance" val="1.5F"/>
+            </leaf>
+            <leaf type="EntityAttackTarget"/>
+        </branch>
+    </branch>
+</action>

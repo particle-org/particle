@@ -1,0 +1,4158 @@
+{
+  "items": [
+    {
+      "name": "minecraft:banner_pattern",
+      "id": 434
+    },
+    {
+      "name": "minecraft:banner_pattern",
+      "id": 434,
+      "damage": 1
+    },
+    {
+      "name": "minecraft:banner_pattern",
+      "id": 434,
+      "damage": 2
+    },
+    {
+      "name": "minecraft:banner_pattern",
+      "id": 434,
+      "damage": 3
+    },
+    {
+      "name": "minecraft:banner_pattern",
+      "id": 434,
+      "damage": 4
+    },
+    {
+      "name": "minecraft:banner_pattern",
+      "id": 434,
+      "damage": 5
+    },
+    {
+      "name": "minecraft:loom",
+      "id": 10459
+    },
+    {
+      "name": "minecraft:scaffolding",
+      "id": 10420
+    },
+    {
+      "name": "minecraft:bamboo",
+      "id": 10418
+    },
+    {
+      "name": "minecraft:planks",
+      "id": 5
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:planks",
+      "id": 5
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:planks",
+      "id": 5
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:planks",
+      "id": 5
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:planks",
+      "id": 5
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:planks",
+      "id": 5
+    },
+    {
+      "name": "minecraft:cobblestone_wall",
+      "id": 139
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:cobblestone_wall",
+      "id": 139
+    },
+    {
+      "name": "minecraft:fence",
+      "id": 85
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:fence",
+      "id": 85
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:fence",
+      "id": 85
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:fence",
+      "id": 85
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:fence",
+      "id": 85
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:fence",
+      "id": 85
+    },
+    {
+      "name": "minecraft:nether_brick_fence",
+      "id": 113
+    },
+    {
+      "name": "minecraft:fence_gate",
+      "id": 107
+    },
+    {
+      "name": "minecraft:spruce_fence_gate",
+      "id": 183
+    },
+    {
+      "name": "minecraft:birch_fence_gate",
+      "id": 184
+    },
+    {
+      "name": "minecraft:jungle_fence_gate",
+      "id": 185
+    },
+    {
+      "name": "minecraft:acacia_fence_gate",
+      "id": 187
+    },
+    {
+      "name": "minecraft:dark_oak_fence_gate",
+      "id": 186
+    },
+    {
+      "name": "minecraft:stone_stairs",
+      "id": 67
+    },
+    {
+      "name": "minecraft:oak_stairs",
+      "id": 53
+    },
+    {
+      "name": "minecraft:spruce_stairs",
+      "id": 134
+    },
+    {
+      "name": "minecraft:birch_stairs",
+      "id": 135
+    },
+    {
+      "name": "minecraft:jungle_stairs",
+      "id": 136
+    },
+    {
+      "name": "minecraft:acacia_stairs",
+      "id": 163
+    },
+    {
+      "name": "minecraft:dark_oak_stairs",
+      "id": 164
+    },
+    {
+      "name": "minecraft:brick_stairs",
+      "id": 108
+    },
+    {
+      "name": "minecraft:stone_brick_stairs",
+      "id": 109
+    },
+    {
+      "name": "minecraft:nether_brick_stairs",
+      "id": 114
+    },
+    {
+      "name": "minecraft:sandstone_stairs",
+      "id": 128
+    },
+    {
+      "name": "minecraft:red_sandstone_stairs",
+      "id": 180
+    },
+    {
+      "name": "minecraft:quartz_stairs",
+      "id": 156
+    },
+    {
+      "name": "minecraft:purpur_stairs",
+      "id": 203
+    },
+    {
+      "name": "minecraft:wooden_door",
+      "id": 324
+    },
+    {
+      "name": "minecraft:spruce_door",
+      "id": 427
+    },
+    {
+      "name": "minecraft:birch_door",
+      "id": 428
+    },
+    {
+      "name": "minecraft:jungle_door",
+      "id": 429
+    },
+    {
+      "name": "minecraft:acacia_door",
+      "id": 430
+    },
+    {
+      "name": "minecraft:dark_oak_door",
+      "id": 431
+    },
+    {
+      "name": "minecraft:iron_door",
+      "id": 330
+    },
+    {
+      "name": "minecraft:trapdoor",
+      "id": 96
+    },
+    {
+      "name": "minecraft:iron_trapdoor",
+      "id": 167
+    },
+    {
+      "name": "minecraft:iron_bars",
+      "id": 101
+    },
+    {
+      "name": "minecraft:glass",
+      "id": 20
+    },
+    {
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:stained_glass",
+      "id": 241
+    },
+    {
+      "name": "minecraft:glass_pane",
+      "id": 102
+    },
+    {
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:stained_glass_pane",
+      "id": 160
+    },
+    {
+      "name": "minecraft:ladder",
+      "id": 65
+    },
+    {
+      "name": "minecraft:stone_slab",
+      "id": 44
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:stone_slab",
+      "id": 44
+    },
+    {
+      "name": "minecraft:wooden_slab",
+      "id": 158
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:wooden_slab",
+      "id": 158
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:wooden_slab",
+      "id": 158
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:wooden_slab",
+      "id": 158
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:wooden_slab",
+      "id": 158
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:wooden_slab",
+      "id": 158
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:stone_slab",
+      "id": 44
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:stone_slab",
+      "id": 44
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:stone_slab",
+      "id": 44
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:stone_slab",
+      "id": 44
+    },
+    {
+      "name": "minecraft:stone_slab2",
+      "id": 182
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:stone_slab",
+      "id": 44
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:stone_slab2",
+      "id": 182
+    },
+    {
+      "name": "minecraft:brick_block",
+      "id": 45
+    },
+    {
+      "name": "minecraft:stonebrick",
+      "id": 98
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:stonebrick",
+      "id": 98
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:stonebrick",
+      "id": 98
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:stonebrick",
+      "id": 98
+    },
+    {
+      "name": "minecraft:end_bricks",
+      "id": 206
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:prismarine",
+      "id": 168
+    },
+    {
+      "name": "minecraft:nether_brick",
+      "id": 112
+    },
+    {
+      "name": "minecraft:red_nether_brick",
+      "id": 215
+    },
+    {
+      "name": "minecraft:cobblestone",
+      "id": 4
+    },
+    {
+      "name": "minecraft:mossy_cobblestone",
+      "id": 48
+    },
+    {
+      "name": "minecraft:quartz",
+      "id": 406
+    },
+    {
+      "name": "minecraft:sandstone",
+      "id": 24
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:sandstone",
+      "id": 24
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:sandstone",
+      "id": 24
+    },
+    {
+      "name": "minecraft:red_sandstone",
+      "id": 179
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:red_sandstone",
+      "id": 179
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:red_sandstone",
+      "id": 179
+    },
+    {
+      "name": "minecraft:coal_block",
+      "id": 173
+    },
+    {
+      "name": "minecraft:redstone_block",
+      "id": 152
+    },
+    {
+      "name": "minecraft:gold_block",
+      "id": 41
+    },
+    {
+      "name": "minecraft:iron_block",
+      "id": 42
+    },
+    {
+      "name": "minecraft:emerald_block",
+      "id": 133
+    },
+    {
+      "name": "minecraft:diamond_block",
+      "id": 57
+    },
+    {
+      "name": "minecraft:lapis_block",
+      "id": 22
+    },
+    {
+      "name": "minecraft:quartz_block",
+      "id": 155
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:quartz_block",
+      "id": 155
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:quartz_block",
+      "id": 155
+    },
+    {
+      "name": "minecraft:prismarine",
+      "id": 168
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:prismarine",
+      "id": 168
+    },
+    {
+      "name": "minecraft:slime",
+      "id": 165
+    },
+    {
+      "name": "minecraft:hay_block",
+      "id": 170
+    },
+    {
+      "name": "minecraft:bone_block",
+      "id": 216
+    },
+    {
+      "name": "minecraft:nether_wart_block",
+      "id": 214
+    },
+    {
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:wool",
+      "id": 35
+    },
+    {
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:carpet",
+      "id": 171
+    },
+    {
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:concretePowder",
+      "id": 237
+    },
+    {
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:concrete",
+      "id": 236
+    },
+    {
+      "name": "minecraft:clay",
+      "id": 82
+    },
+    {
+      "name": "minecraft:hardened_clay",
+      "id": 172
+    },
+    {
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:stained_hardened_clay",
+      "id": 159
+    },
+    {
+      "name": "minecraft:white_glazed_terracotta",
+      "id": 220
+    },
+    {
+      "name": "minecraft:silver_glazed_terracotta",
+      "id": 228
+    },
+    {
+      "name": "minecraft:gray_glazed_terracotta",
+      "id": 227
+    },
+    {
+      "name": "minecraft:black_glazed_terracotta",
+      "id": 235
+    },
+    {
+      "name": "minecraft:brown_glazed_terracotta",
+      "id": 232
+    },
+    {
+      "name": "minecraft:red_glazed_terracotta",
+      "id": 234
+    },
+    {
+      "name": "minecraft:orange_glazed_terracotta",
+      "id": 221
+    },
+    {
+      "name": "minecraft:yellow_glazed_terracotta",
+      "id": 224
+    },
+    {
+      "name": "minecraft:lime_glazed_terracotta",
+      "id": 225
+    },
+    {
+      "name": "minecraft:green_glazed_terracotta",
+      "id": 233
+    },
+    {
+      "name": "minecraft:cyan_glazed_terracotta",
+      "id": 229
+    },
+    {
+      "name": "minecraft:light_blue_glazed_terracotta",
+      "id": 223
+    },
+    {
+      "name": "minecraft:blue_glazed_terracotta",
+      "id": 231
+    },
+    {
+      "name": "minecraft:purple_glazed_terracotta",
+      "id": 219
+    },
+    {
+      "name": "minecraft:magenta_glazed_terracotta",
+      "id": 222
+    },
+    {
+      "name": "minecraft:pink_glazed_terracotta",
+      "id": 226
+    },
+    {
+      "name": "minecraft:purpur_block",
+      "id": 201
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:purpur_block",
+      "id": 201
+    },
+    {
+      "name": "minecraft:dirt",
+      "id": 3
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:dirt",
+      "id": 3
+    },
+    {
+      "name": "minecraft:grass",
+      "id": 2
+    },
+    {
+      "name": "minecraft:podzol",
+      "id": 243
+    },
+    {
+      "name": "minecraft:mycelium",
+      "id": 110
+    },
+    {
+      "name": "minecraft:stone",
+      "id": 1
+    },
+    {
+      "name": "minecraft:iron_ore",
+      "id": 15
+    },
+    {
+      "name": "minecraft:gold_ore",
+      "id": 14
+    },
+    {
+      "name": "minecraft:diamond_ore",
+      "id": 56
+    },
+    {
+      "name": "minecraft:lapis_ore",
+      "id": 21
+    },
+    {
+      "name": "minecraft:redstone_ore",
+      "id": 73
+    },
+    {
+      "name": "minecraft:coal_ore",
+      "id": 16
+    },
+    {
+      "name": "minecraft:emerald_ore",
+      "id": 129
+    },
+    {
+      "name": "minecraft:quartz_ore",
+      "id": 153
+    },
+    {
+      "name": "minecraft:gravel",
+      "id": 13
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:stone",
+      "id": 1
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:stone",
+      "id": 1
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:stone",
+      "id": 1
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:stone",
+      "id": 1
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:stone",
+      "id": 1
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:stone",
+      "id": 1
+    },
+    {
+      "name": "minecraft:sand",
+      "id": 12
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:sand",
+      "id": 12
+    },
+    {
+      "name": "minecraft:cactus",
+      "id": 81
+    },
+    {
+      "name": "minecraft:log",
+      "id": 17
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:log",
+      "id": 17
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:log",
+      "id": 17
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:log",
+      "id": 17
+    },
+    {
+      "name": "minecraft:log2",
+      "id": 162
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:log2",
+      "id": 162
+    },
+    {
+      "name": "minecraft:leaves",
+      "id": 18
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:leaves",
+      "id": 18
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:leaves",
+      "id": 18
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:leaves",
+      "id": 18
+    },
+    {
+      "name": "minecraft:leaves2",
+      "id": 161
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:leaves2",
+      "id": 161
+    },
+    {
+      "name": "minecraft:sapling",
+      "id": 6
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:sapling",
+      "id": 6
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:sapling",
+      "id": 6
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:sapling",
+      "id": 6
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:sapling",
+      "id": 6
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:sapling",
+      "id": 6
+    },
+    {
+      "name": "minecraft:wheat_seeds",
+      "id": 295
+    },
+    {
+      "name": "minecraft:pumpkin_seeds",
+      "id": 361
+    },
+    {
+      "name": "minecraft:melon_seeds",
+      "id": 362
+    },
+    {
+      "name": "minecraft:beetroot_seeds",
+      "id": 458
+    },
+    {
+      "name": "minecraft:wheat",
+      "id": 296
+    },
+    {
+      "name": "minecraft:beetroot",
+      "id": 457
+    },
+    {
+      "name": "minecraft:potato",
+      "id": 392
+    },
+    {
+      "name": "minecraft:poisonous_potato",
+      "id": 394
+    },
+    {
+      "name": "minecraft:carrot",
+      "id": 391
+    },
+    {
+      "name": "minecraft:golden_carrot",
+      "id": 396
+    },
+    {
+      "name": "minecraft:apple",
+      "id": 260
+    },
+    {
+      "name": "minecraft:golden_apple",
+      "id": 322
+    },
+    {
+      "name": "minecraft:appleenchanted",
+      "id": 466
+    },
+    {
+      "name": "minecraft:melon_block",
+      "id": 103
+    },
+    {
+      "name": "minecraft:melon",
+      "id": 360
+    },
+    {
+      "name": "minecraft:speckled_melon",
+      "id": 382
+    },
+    {
+      "name": "minecraft:pumpkin",
+      "id": 86
+    },
+    {
+      "name": "minecraft:lit_pumpkin",
+      "id": 91
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:tallgrass",
+      "id": 31
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:double_plant",
+      "id": 175
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:tallgrass",
+      "id": 31
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:double_plant",
+      "id": 175
+    },
+    {
+      "name": "minecraft:yellow_flower",
+      "id": 37
+    },
+    {
+      "name": "minecraft:red_flower",
+      "id": 38
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:red_flower",
+      "id": 38
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:red_flower",
+      "id": 38
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:red_flower",
+      "id": 38
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:red_flower",
+      "id": 38
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:red_flower",
+      "id": 38
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:red_flower",
+      "id": 38
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:red_flower",
+      "id": 38
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:red_flower",
+      "id": 38
+    },
+    {
+      "name": "minecraft:double_plant",
+      "id": 175
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:double_plant",
+      "id": 175
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:double_plant",
+      "id": 175
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:double_plant",
+      "id": 175
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:dye",
+      "id": 351
+    },
+    {
+      "name": "minecraft:vine",
+      "id": 106
+    },
+    {
+      "name": "minecraft:waterlily",
+      "id": 111
+    },
+    {
+      "name": "minecraft:deadbush",
+      "id": 32
+    },
+    {
+      "name": "minecraft:snow",
+      "id": 80
+    },
+    {
+      "name": "minecraft:ice",
+      "id": 79
+    },
+    {
+      "name": "minecraft:packed_ice",
+      "id": 174
+    },
+    {
+      "name": "minecraft:snow_layer",
+      "id": 78
+    },
+    {
+      "name": "minecraft:chicken",
+      "id": 365
+    },
+    {
+      "name": "minecraft:porkchop",
+      "id": 319
+    },
+    {
+      "name": "minecraft:beef",
+      "id": 363
+    },
+    {
+      "name": "minecraft:muttonraw",
+      "id": 423
+    },
+    {
+      "name": "minecraft:rabbit",
+      "id": 411
+    },
+    {
+      "name": "minecraft:fish",
+      "id": 349
+    },
+    {
+      "name": "minecraft:salmon",
+      "id": 460
+    },
+    {
+      "name": "minecraft:clownfish",
+      "id": 461
+    },
+    {
+      "name": "minecraft:pufferfish",
+      "id": 462
+    },
+    {
+      "name": "minecraft:cooked_chicken",
+      "id": 366
+    },
+    {
+      "name": "minecraft:cooked_porkchop",
+      "id": 320
+    },
+    {
+      "name": "minecraft:cooked_beef",
+      "id": 364
+    },
+    {
+      "name": "minecraft:muttoncooked",
+      "id": 424
+    },
+    {
+      "name": "minecraft:cooked_rabbit",
+      "id": 412
+    },
+    {
+      "name": "minecraft:cooked_fish",
+      "id": 350
+    },
+    {
+      "name": "minecraft:cooked_salmon",
+      "id": 463
+    },
+    {
+      "name": "minecraft:bread",
+      "id": 297
+    },
+    {
+      "name": "minecraft:mushroom_stew",
+      "id": 282
+    },
+    {
+      "name": "minecraft:beetroot_soup",
+      "id": 459
+    },
+    {
+      "name": "minecraft:rabbit_stew",
+      "id": 413
+    },
+    {
+      "name": "minecraft:baked_potato",
+      "id": 393
+    },
+    {
+      "name": "minecraft:cookie",
+      "id": 357
+    },
+    {
+      "name": "minecraft:pumpkin_pie",
+      "id": 400
+    },
+    {
+      "name": "minecraft:cake",
+      "id": 354
+    },
+    {
+      "name": "minecraft:brown_mushroom",
+      "id": 39
+    },
+    {
+      "name": "minecraft:red_mushroom",
+      "id": 40
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:brown_mushroom_block",
+      "id": 99
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:red_mushroom_block",
+      "id": 100
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:brown_mushroom_block",
+      "id": 99
+    },
+    {
+      "name": "minecraft:brown_mushroom_block",
+      "id": 99
+    },
+    {
+      "name": "minecraft:egg",
+      "id": 344
+    },
+    {
+      "name": "minecraft:reeds",
+      "id": 338
+    },
+    {
+      "name": "minecraft:sugar",
+      "id": 353
+    },
+    {
+      "name": "minecraft:mob_spawner",
+      "id": 52
+    },
+    {
+      "name": "minecraft:monster_egg",
+      "id": 97
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:monster_egg",
+      "id": 97
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:monster_egg",
+      "id": 97
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:monster_egg",
+      "id": 97
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:monster_egg",
+      "id": 97
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:monster_egg",
+      "id": 97
+    },
+    {
+      "name": "minecraft:dragon_egg",
+      "id": 122
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 28,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 22,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 16,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 19,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 30,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 18,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 29,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 23,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 24,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 25,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 26,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 27,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 33,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 38,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 39,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 34,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 48,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 46,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 37,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 35,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 32,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 36,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 47,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 17,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 40,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 45,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 49,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 50,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 55,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 42,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 41,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 43,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 54,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 57,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 104,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 105,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "damage": 44,
+      "name": "minecraft:spawn_egg",
+      "id": 383
+    },
+    {
+      "name": "minecraft:obsidian",
+      "id": 49
+    },
+    {
+      "name": "minecraft:bedrock",
+      "id": 7
+    },
+    {
+      "name": "minecraft:soul_sand",
+      "id": 88
+    },
+    {
+      "name": "minecraft:netherrack",
+      "id": 87
+    },
+    {
+      "name": "minecraft:magma",
+      "id": 213
+    },
+    {
+      "name": "minecraft:nether_wart",
+      "id": 372
+    },
+    {
+      "name": "minecraft:end_stone",
+      "id": 121
+    },
+    {
+      "name": "minecraft:chorus_flower",
+      "id": 200
+    },
+    {
+      "name": "minecraft:chorus_plant",
+      "id": 240
+    },
+    {
+      "name": "minecraft:chorus_fruit",
+      "id": 432
+    },
+    {
+      "name": "minecraft:chorus_fruit_popped",
+      "id": 433
+    },
+    {
+      "name": "minecraft:sponge",
+      "id": 19
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:sponge",
+      "id": 19
+    },
+    {
+      "name": "minecraft:rotten_flesh",
+      "id": 367
+    },
+    {
+      "name": "minecraft:bone",
+      "id": 352
+    },
+    {
+      "name": "minecraft:web",
+      "id": 30
+    },
+    {
+      "name": "minecraft:leather_helmet",
+      "id": 298
+    },
+    {
+      "name": "minecraft:chainmail_helmet",
+      "id": 302
+    },
+    {
+      "name": "minecraft:iron_helmet",
+      "id": 306
+    },
+    {
+      "name": "minecraft:golden_helmet",
+      "id": 314
+    },
+    {
+      "name": "minecraft:diamond_helmet",
+      "id": 310
+    },
+    {
+      "name": "minecraft:leather_chestplate",
+      "id": 299
+    },
+    {
+      "name": "minecraft:chainmail_chestplate",
+      "id": 303
+    },
+    {
+      "name": "minecraft:iron_chestplate",
+      "id": 307
+    },
+    {
+      "name": "minecraft:golden_chestplate",
+      "id": 315
+    },
+    {
+      "name": "minecraft:diamond_chestplate",
+      "id": 311
+    },
+    {
+      "name": "minecraft:leather_leggings",
+      "id": 300
+    },
+    {
+      "name": "minecraft:chainmail_leggings",
+      "id": 304
+    },
+    {
+      "name": "minecraft:iron_leggings",
+      "id": 308
+    },
+    {
+      "name": "minecraft:golden_leggings",
+      "id": 316
+    },
+    {
+      "name": "minecraft:diamond_leggings",
+      "id": 312
+    },
+    {
+      "name": "minecraft:leather_boots",
+      "id": 301
+    },
+    {
+      "name": "minecraft:chainmail_boots",
+      "id": 305
+    },
+    {
+      "name": "minecraft:iron_boots",
+      "id": 309
+    },
+    {
+      "name": "minecraft:golden_boots",
+      "id": 317
+    },
+    {
+      "name": "minecraft:diamond_boots",
+      "id": 313
+    },
+    {
+      "name": "minecraft:saddle",
+      "id": 329
+    },
+    {
+      "name": "minecraft:horsearmorleather",
+      "id": 416
+    },
+    {
+      "name": "minecraft:horsearmoriron",
+      "id": 417
+    },
+    {
+      "name": "minecraft:horsearmorgold",
+      "id": 418
+    },
+    {
+      "name": "minecraft:horsearmordiamond",
+      "id": 419
+    },
+    {
+      "name": "minecraft:elytra",
+      "id": 444
+    },
+    {
+      "name": "minecraft:wooden_sword",
+      "id": 268
+    },
+    {
+      "name": "minecraft:stone_sword",
+      "id": 272
+    },
+    {
+      "name": "minecraft:iron_sword",
+      "id": 267
+    },
+    {
+      "name": "minecraft:golden_sword",
+      "id": 283
+    },
+    {
+      "name": "minecraft:diamond_sword",
+      "id": 276
+    },
+    {
+      "name": "minecraft:wooden_axe",
+      "id": 271
+    },
+    {
+      "name": "minecraft:stone_axe",
+      "id": 275
+    },
+    {
+      "name": "minecraft:iron_axe",
+      "id": 258
+    },
+    {
+      "name": "minecraft:golden_axe",
+      "id": 286
+    },
+    {
+      "name": "minecraft:diamond_axe",
+      "id": 279
+    },
+    {
+      "name": "minecraft:wooden_pickaxe",
+      "id": 270
+    },
+    {
+      "name": "minecraft:stone_pickaxe",
+      "id": 274
+    },
+    {
+      "name": "minecraft:iron_pickaxe",
+      "id": 257
+    },
+    {
+      "name": "minecraft:golden_pickaxe",
+      "id": 285
+    },
+    {
+      "name": "minecraft:diamond_pickaxe",
+      "id": 278
+    },
+    {
+      "name": "minecraft:wooden_shovel",
+      "id": 269
+    },
+    {
+      "name": "minecraft:stone_shovel",
+      "id": 273
+    },
+    {
+      "name": "minecraft:iron_shovel",
+      "id": 256
+    },
+    {
+      "name": "minecraft:golden_shovel",
+      "id": 284
+    },
+    {
+      "name": "minecraft:diamond_shovel",
+      "id": 277
+    },
+    {
+      "name": "minecraft:wooden_hoe",
+      "id": 290
+    },
+    {
+      "name": "minecraft:stone_hoe",
+      "id": 291
+    },
+    {
+      "name": "minecraft:iron_hoe",
+      "id": 292
+    },
+    {
+      "name": "minecraft:golden_hoe",
+      "id": 294
+    },
+    {
+      "name": "minecraft:diamond_hoe",
+      "id": 293
+    },
+    {
+      "name": "minecraft:bow",
+      "id": 261
+    },
+    {
+      "name": "minecraft:crossbow",
+      "id": 471
+    },
+    {
+      "name": "minecraft:trident",
+      "id": 455
+    },
+    {
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 16,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 17,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 18,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 19,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 20,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 21,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 22,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 23,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 24,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 25,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 26,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 27,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 28,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 29,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 30,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 31,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 32,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 33,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 34,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 35,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 36,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "damage": 37,
+      "name": "minecraft:arrow",
+      "id": 262
+    },
+    {
+      "name": "minecraft:fishing_rod",
+      "id": 346
+    },
+    {
+      "name": "minecraft:carrotonastick",
+      "id": 398
+    },
+    {
+      "name": "minecraft:snowball",
+      "id": 332
+    },
+    {
+      "name": "minecraft:shears",
+      "id": 359
+    },
+    {
+      "name": "minecraft:flint_and_steel",
+      "id": 259
+    },
+    {
+      "name": "minecraft:totem",
+      "id": 450
+    },
+    {
+      "name": "minecraft:glass_bottle",
+      "id": 374
+    },
+    {
+      "name": "minecraft:experience_bottle",
+      "id": 384
+    },
+    {
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 16,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 17,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 18,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 19,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 20,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 21,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 22,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 23,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 24,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 25,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 26,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 27,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 28,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 29,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 30,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 31,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 32,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 33,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 34,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 35,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "damage": 36,
+      "name": "minecraft:potion",
+      "id": 373
+    },
+    {
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 16,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 17,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 18,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 19,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 20,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 21,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 22,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 23,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 24,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 25,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 26,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 27,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 28,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 29,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 30,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 31,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 32,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 33,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 34,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 35,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "damage": 36,
+      "name": "minecraft:splash_potion",
+      "id": 438
+    },
+    {
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 16,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 17,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 18,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 19,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 20,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 21,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 22,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 23,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 24,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 25,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 26,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 27,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 28,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 29,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 30,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 31,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 32,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 33,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 34,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 35,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "damage": 36,
+      "name": "minecraft:lingering_potion",
+      "id": 441
+    },
+    {
+      "name": "minecraft:stick",
+      "id": 280
+    },
+    {
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:bed",
+      "id": 355
+    },
+    {
+      "name": "minecraft:torch",
+      "id": 50
+    },
+    {
+      "name": "minecraft:redstone_torch",
+      "id": 76
+    },
+    {
+      "name": "minecraft:redstone_lamp",
+      "id": 123
+    },
+    {
+      "name": "minecraft:seaLantern",
+      "id": 169
+    },
+    {
+      "name": "minecraft:glowstone",
+      "id": 89
+    },
+    {
+      "name": "minecraft:glowstone_dust",
+      "id": 348
+    },
+    {
+      "name": "minecraft:sign",
+      "id": 323
+    },
+    {
+      "name": "minecraft:spruce_sign",
+      "id": 472
+    },
+    {
+      "name": "minecraft:birch_sign",
+      "id": 473
+    },
+    {
+      "name": "minecraft:jungle_sign",
+      "id": 474
+    },
+    {
+      "name": "minecraft:acacia_sign",
+      "id": 475
+    },
+    {
+      "name": "minecraft:darkoak_sign",
+      "id": 476
+    },
+    {
+      "name": "minecraft:painting",
+      "id": 321
+    },
+    {
+      "name": "minecraft:itemframe",
+      "id": 389
+    },
+    {
+      "name": "minecraft:flower_pot",
+      "id": 390
+    },
+    {
+      "name": "minecraft:bowl",
+      "id": 281
+    },
+    {
+      "name": "minecraft:armor_stand",
+      "id": 425
+    },
+    {
+      "name": "minecraft:crafting_table",
+      "id": 58
+    },
+    {
+      "name": "minecraft:furnace",
+      "id": 61
+    },
+    {
+      "name": "minecraft:brewing_stand",
+      "id": 379
+    },
+    {
+      "name": "minecraft:cauldron",
+      "id": 380
+    },
+    {
+      "name": "minecraft:anvil",
+      "id": 145
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:anvil",
+      "id": 145
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:anvil",
+      "id": 145
+    },
+    {
+      "name": "minecraft:chest",
+      "id": 54
+    },
+    {
+      "name": "minecraft:trapped_chest",
+      "id": 146
+    },
+    {
+      "name": "minecraft:ender_chest",
+      "id": 130
+    },
+    {
+      "damage": 16,
+      "name": "minecraft:undyed_shulker_box",
+      "id": 205
+    },
+    {
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:shulker_box",
+      "id": 218
+    },
+    {
+      "name": "minecraft:bookshelf",
+      "id": 47
+    },
+    {
+      "name": "minecraft:enchanting_table",
+      "id": 116
+    },
+    {
+      "name": "minecraft:noteblock",
+      "id": 25
+    },
+    {
+      "name": "minecraft:jukebox",
+      "id": 84
+    },
+    {
+      "name": "minecraft:record_13",
+      "id": 500
+    },
+    {
+      "name": "minecraft:record_cat",
+      "id": 501
+    },
+    {
+      "name": "minecraft:record_blocks",
+      "id": 502
+    },
+    {
+      "name": "minecraft:record_chirp",
+      "id": 503
+    },
+    {
+      "name": "minecraft:record_far",
+      "id": 504
+    },
+    {
+      "name": "minecraft:record_mall",
+      "id": 505
+    },
+    {
+      "name": "minecraft:record_mellohi",
+      "id": 506
+    },
+    {
+      "name": "minecraft:record_stal",
+      "id": 507
+    },
+    {
+      "name": "minecraft:record_strad",
+      "id": 508
+    },
+    {
+      "name": "minecraft:record_ward",
+      "id": 509
+    },
+    {
+      "name": "minecraft:record_11",
+      "id": 510
+    },
+    {
+      "name": "minecraft:record_wait",
+      "id": 511
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:skull",
+      "id": 397
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:skull",
+      "id": 397
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:skull",
+      "id": 397
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:skull",
+      "id": 397
+    },
+    {
+      "name": "minecraft:skull",
+      "id": 397
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:skull",
+      "id": 397
+    },
+    {
+      "name": "minecraft:beacon",
+      "id": 138
+    },
+    {
+      "name": "minecraft:daylight_detector",
+      "id": 151
+    },
+    {
+      "name": "minecraft:end_portal_frame",
+      "id": 120
+    },
+    {
+      "name": "minecraft:string",
+      "id": 287
+    },
+    {
+      "name": "minecraft:bucket",
+      "id": 325
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:bucket",
+      "id": 325
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:bucket",
+      "id": 325
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:bucket",
+      "id": 325
+    },
+    {
+      "name": "minecraft:feather",
+      "id": 288
+    },
+    {
+      "name": "minecraft:flint",
+      "id": 318
+    },
+    {
+      "name": "minecraft:gunpowder",
+      "id": 289
+    },
+    {
+      "name": "minecraft:leather",
+      "id": 334
+    },
+    {
+      "name": "minecraft:rabbit_hide",
+      "id": 415
+    },
+    {
+      "name": "minecraft:rabbit_foot",
+      "id": 414
+    },
+    {
+      "name": "minecraft:iron_nugget",
+      "id": 452
+    },
+    {
+      "name": "minecraft:gold_nugget",
+      "id": 371
+    },
+    {
+      "name": "minecraft:weaponIdl",
+      "id": 385
+    },
+    {
+      "name": "minecraft:blaze_powder",
+      "id": 377
+    },
+    {
+      "name": "minecraft:blaze_rod",
+      "id": 369
+    },
+    {
+      "name": "minecraft:magma_cream",
+      "id": 378
+    },
+    {
+      "name": "minecraft:spider_eye",
+      "id": 375
+    },
+    {
+      "name": "minecraft:fermented_spider_eye",
+      "id": 376
+    },
+    {
+      "name": "minecraft:dragon_breath",
+      "id": 437
+    },
+    {
+      "name": "minecraft:shulker_shell",
+      "id": 445
+    },
+    {
+      "name": "minecraft:ghast_tear",
+      "id": 370
+    },
+    {
+      "name": "minecraft:slimeball",
+      "id": 341
+    },
+    {
+      "name": "minecraft:ender_pearl",
+      "id": 368
+    },
+    {
+      "name": "minecraft:ender_eye",
+      "id": 381
+    },
+    {
+      "name": "minecraft:netherstar",
+      "id": 399
+    },
+    {
+      "name": "minecraft:end_rod",
+      "id": 208
+    },
+    {
+      "name": "minecraft:end_crystal",
+      "id": 426
+    },
+    {
+      "name": "minecraft:paper",
+      "id": 339
+    },
+    {
+      "name": "minecraft:emptymap",
+      "id": 395
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:emptymap",
+      "id": 395
+    },
+    {
+      "name": "minecraft:writable_book",
+      "id": 386
+    },
+    {
+      "name": "minecraft:book",
+      "id": 340
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696400000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696400000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696400000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696400000203006c766c04000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696401000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696401000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696401000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696401000203006c766c04000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696402000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696402000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696402000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696402000203006c766c04000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696403000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696403000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696403000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696403000203006c766c04000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696404000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696404000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696404000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696404000203006c766c04000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696405000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696405000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696405000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696406000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696406000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696406000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696407000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696407000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696407000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696408000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696409000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696409000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696409000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696409000203006c766c04000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696409000203006c766c05000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640a000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640a000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640a000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640a000203006c766c04000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640a000203006c766c05000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640b000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640b000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640b000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640b000203006c766c04000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640b000203006c766c05000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640c000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640c000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640d000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640d000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640e000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640e000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640e000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640f000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640f000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640f000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640f000203006c766c04000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069640f000203006c766c05000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696410000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696411000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696411000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696411000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696412000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696412000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696412000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696413000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696413000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696413000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696413000203006c766c04000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696413000203006c766c05000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696414000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696414000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696415000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696416000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696417000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696417000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696417000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696418000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696418000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696418000203006c766c03000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696419000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a01000000020200696419000203006c766c02000000"
+    },
+    {
+      "name": "minecraft:enchanted_book",
+      "id": 403,
+      "nbt_hex": "0a0000090400656e63680a0100000002020069641a000203006c766c01000000"
+    },
+    {
+      "name": "minecraft:rail",
+      "id": 66
+    },
+    {
+      "name": "minecraft:golden_rail",
+      "id": 27
+    },
+    {
+      "name": "minecraft:detector_rail",
+      "id": 28
+    },
+    {
+      "name": "minecraft:activator_rail",
+      "id": 126
+    },
+    {
+      "name": "minecraft:minecart",
+      "id": 328
+    },
+    {
+      "name": "minecraft:chest_minecart",
+      "id": 342
+    },
+    {
+      "name": "minecraft:hopper_minecart",
+      "id": 408
+    },
+    {
+      "name": "minecraft:tnt_minecart",
+      "id": 407
+    },
+    {
+      "name": "minecraft:lever",
+      "id": 69
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:wooden_button",
+      "id": 143
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:stone_button",
+      "id": 77
+    },
+    {
+      "name": "minecraft:hopper",
+      "id": 410
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:dropper",
+      "id": 125
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:dispenser",
+      "id": 23
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:piston",
+      "id": 33
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:sticky_piston",
+      "id": 29
+    },
+    {
+      "name": "minecraft:observer",
+      "id": 251
+    },
+    {
+      "name": "minecraft:repeater",
+      "id": 356
+    },
+    {
+      "name": "minecraft:comparator",
+      "id": 404
+    },
+    {
+      "name": "minecraft:tripwire_hook",
+      "id": 131
+    },
+    {
+      "name": "minecraft:wooden_pressure_plate",
+      "id": 72
+    },
+    {
+      "name": "minecraft:stone_pressure_plate",
+      "id": 70
+    },
+    {
+      "name": "minecraft:light_weighted_pressure_plate",
+      "id": 147
+    },
+    {
+      "name": "minecraft:heavy_weighted_pressure_plate",
+      "id": 148
+    },
+    {
+      "name": "minecraft:redstone",
+      "id": 331
+    },
+    {
+      "name": "minecraft:coal",
+      "id": 263
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:coal",
+      "id": 263
+    },
+    {
+      "name": "minecraft:diamond",
+      "id": 264
+    },
+    {
+      "name": "minecraft:iron_ingot",
+      "id": 265
+    },
+    {
+      "name": "minecraft:gold_ingot",
+      "id": 266
+    },
+    {
+      "name": "minecraft:emerald",
+      "id": 388
+    },
+    {
+      "name": "minecraft:brick",
+      "id": 336
+    },
+    {
+      "name": "minecraft:netherbrick",
+      "id": 405
+    },
+    {
+      "name": "minecraft:clay_ball",
+      "id": 337
+    },
+    {
+      "name": "minecraft:prismarine_shard",
+      "id": 409
+    },
+    {
+      "name": "minecraft:prismarine_crystals",
+      "id": 422
+    },
+    {
+      "name": "minecraft:tnt",
+      "id": 46
+    },
+    {
+      "name": "minecraft:lead",
+      "id": 420
+    },
+    {
+      "name": "minecraft:nametag",
+      "id": 421
+    },
+    {
+      "name": "minecraft:clock",
+      "id": 347
+    },
+    {
+      "name": "minecraft:compass",
+      "id": 345
+    },
+    {
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 8,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 7,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 15,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 12,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 14,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 1,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 4,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 5,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 13,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 9,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 3,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 11,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 10,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 2,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "damage": 6,
+      "name": "minecraft:banner",
+      "id": 446
+    },
+    {
+      "name": "minecraft:fireworks",
+      "id": 401
+    },
+    {
+      "name": "minecraft:fireworkscharge",
+      "id": 402
+    }
+  ]
+}

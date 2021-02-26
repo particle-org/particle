@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="SnowGolemRemoteAttack" binder="SnowGolemRemoteAttack">
+    <branch type="FollowSelector">
+        <branch type="FollowSequence">
+            <branch type="FollowSelector">
+                <branch type="ReverseNode">
+                    <leaf type="TargetPlayerStateCheck"/>
+                </branch>
+                <leaf type="TargetDeadCheck"/>
+                <leaf type="TargetLostCheck">
+                    <config key="TraceDistance" val="16F"/>
+                </leaf>
+            </branch>
+            <leaf type="AbortdActionTree"/>
+        </branch>
+        <branch type="FollowSequence">
+            <!-- 追踪 -->
+            <branch type="FollowSelector">
+                <branch type="FollowSequence">
+                    <leaf type="TargetNearCheck">
+                        <config key="CheckDistance" val="5F"/>
+                    </leaf>
+                    <leaf type="EscapeEntityPositionChoose"/>
+                    <leaf type="EntityMoveToPosition"/>
+                </branch>
+                <branch type="FollowSequence">
+                    <leaf type="PositionTargetMakerByEntity"/>
+                    <branch type="FollowSelector">
+                        <leaf type="FollowPositionChoose"/>
+                        <leaf type="FollowPositionByPassChoose"/>
+                    </branch>
+                    <leaf type="EntityMoveToPosition"/>
+                </branch>
+            </branch>
+            <leaf type="EntitySwimAction"/>
+            <!-- 盯着目标 -->
+            <leaf type="EntityFocuseTarget"/>
+            <!-- 攻击 -->
+            <leaf type="TargetNearCheck">
+                <config key="CheckDistance" val="12F"/>
+            </leaf>
+            <leaf type="EntityShootTarget">
+                <config key="Weapon" val="minecraft:snowball"/>
+            </leaf>
+        </branch>
+    </branch>
+</action>

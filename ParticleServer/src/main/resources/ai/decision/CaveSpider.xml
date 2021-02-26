@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<decision id="CaveSpider" binder="minecraft:cave_spider">
+    <!--    <branch type="FollowSequence">-->
+    <!--        <leaf type="NearSurvivorTargetSeeker" />-->
+    <!--        <leaf type="EntityDecisionMaker">-->
+    <!--            <config key="Decision" val="CaveSpiderAttack" />-->
+    <!--        </leaf>-->
+    <!--    </branch>-->
+    <branch type="WeightsProbability">
+        <branch type="FollowSequence" weight="3">
+            <leaf type="NearGmTargetSeeker"/>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FocusEntity"/>
+            </leaf>
+        </branch>
+        <branch type="FollowSequence" weight="2">
+            <leaf type="RandomMovePositionSeeker"/>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="MoveToPosition"/>
+            </leaf>
+        </branch>
+        <branch type="FollowSequence" weight="7">
+            <leaf type="RandomPositionSeeker"/>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FocusPosition"/>
+            </leaf>
+        </branch>
+    </branch>
+</decision>

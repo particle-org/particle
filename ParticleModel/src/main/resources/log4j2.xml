@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="%highlight{%d %-5p [%t] %C{2} (%F:%L) - %m%n}{FATAL=red, ERROR=red, WARN=yellow, INFO=white, DEBUG=green,TRACE=green}"/>
+        </Console>
+        <RollingRandomAccessFile name="File" fileName="logs/latest.log" filePattern="logs/%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%d %-5p [%t] %C{2} (%F:%L) - %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <OnStartupTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy max="1000"/>
+        </RollingRandomAccessFile>
+        <RollingRandomAccessFile name="Prison" fileName="prison/latest.log"
+                                 filePattern="prison/%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <OnStartupTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy max="1000"/>
+        </RollingRandomAccessFile>
+        <RollingRandomAccessFile name="HiveLogger" fileName="plugins/ParticleMonitor/logs/recorder.log"
+                                 filePattern="plugins/ParticleMonitor/logs/%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <OnStartupTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy max="1000"/>
+        </RollingRandomAccessFile>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="File"/>
+        </Root>
+        <LOGGER name="com.particle.util.log.HiveLogger" level="info" additivity="false">
+            <AppenderRef ref="HiveLogger"/>
+        </LOGGER>
+        <LOGGER name="org.apache.kafka" level="info">
+        </LOGGER>
+    </Loggers>
+</Configuration>

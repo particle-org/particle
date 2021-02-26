@@ -1,0 +1,1167 @@
+[
+  {
+    "description": "item.air",
+    "id": -158,
+    "name": "air"
+  },
+  {
+    "description": "item.apple",
+    "id": 260,
+    "name": "apple"
+  },
+  {
+    "description": "item.golden_apple",
+    "id": 322,
+    "name": "golden_apple"
+  },
+  {
+    "description": "item.appleEnchanted",
+    "id": 466,
+    "name": "appleenchanted"
+  },
+  {
+    "description": "item.mushroom_stew",
+    "id": 282,
+    "name": "mushroom_stew"
+  },
+  {
+    "description": "item.bread",
+    "id": 297,
+    "name": "bread"
+  },
+  {
+    "description": "item.porkchop",
+    "id": 319,
+    "name": "porkchop"
+  },
+  {
+    "description": "item.cooked_porkchop",
+    "id": 320,
+    "name": "cooked_porkchop"
+  },
+  {
+    "description": "item.fish",
+    "id": 349,
+    "name": "fish"
+  },
+  {
+    "description": "item.salmon",
+    "id": 460,
+    "name": "salmon"
+  },
+  {
+    "description": "item.clownfish",
+    "id": 461,
+    "name": "clownfish"
+  },
+  {
+    "description": "item.pufferfish",
+    "id": 462,
+    "name": "pufferfish"
+  },
+  {
+    "description": "item.cooked_fish",
+    "id": 350,
+    "name": "cooked_fish"
+  },
+  {
+    "description": "item.cooked_salmon",
+    "id": 463,
+    "name": "cooked_salmon"
+  },
+  {
+    "description": "item.dried_kelp",
+    "id": 464,
+    "name": "dried_kelp"
+  },
+  {
+    "description": "item.cookie",
+    "id": 357,
+    "name": "cookie"
+  },
+  {
+    "description": "item.melon",
+    "id": 360,
+    "name": "melon"
+  },
+  {
+    "description": "item.beef",
+    "id": 363,
+    "name": "beef"
+  },
+  {
+    "description": "item.cooked_beef",
+    "id": 364,
+    "name": "cooked_beef"
+  },
+  {
+    "description": "item.chicken",
+    "id": 365,
+    "name": "chicken"
+  },
+  {
+    "description": "item.cooked_chicken",
+    "id": 366,
+    "name": "cooked_chicken"
+  },
+  {
+    "description": "item.rotten_flesh",
+    "id": 367,
+    "name": "rotten_flesh"
+  },
+  {
+    "description": "item.spider_eye",
+    "id": 375,
+    "name": "spider_eye"
+  },
+  {
+    "description": "item.carrot",
+    "id": 391,
+    "name": "carrot"
+  },
+  {
+    "description": "item.potato",
+    "id": 392,
+    "name": "potato"
+  },
+  {
+    "description": "item.baked_potato",
+    "id": 393,
+    "name": "baked_potato"
+  },
+  {
+    "description": "item.poisonous_potato",
+    "id": 394,
+    "name": "poisonous_potato"
+  },
+  {
+    "description": "item.golden_carrot",
+    "id": 396,
+    "name": "golden_carrot"
+  },
+  {
+    "description": "item.pumpkin_pie",
+    "id": 400,
+    "name": "pumpkin_pie"
+  },
+  {
+    "description": "item.beetroot",
+    "id": 457,
+    "name": "beetroot"
+  },
+  {
+    "description": "item.beetroot_soup",
+    "id": 459,
+    "name": "beetroot_soup"
+  },
+  {
+    "description": "item.sweet_berries",
+    "id": 477,
+    "name": "sweet_berries"
+  },
+  {
+    "description": "item.rabbit",
+    "id": 411,
+    "name": "rabbit"
+  },
+  {
+    "description": "item.cooked_rabbit",
+    "id": 412,
+    "name": "cooked_rabbit"
+  },
+  {
+    "description": "item.rabbit_stew",
+    "id": 413,
+    "name": "rabbit_stew"
+  },
+  {
+    "description": "item.wheat_seeds",
+    "id": 295,
+    "name": "wheat_seeds"
+  },
+  {
+    "description": "item.pumpkin_seeds",
+    "id": 361,
+    "name": "pumpkin_seeds"
+  },
+  {
+    "description": "item.melon_seeds",
+    "id": 362,
+    "name": "melon_seeds"
+  },
+  {
+    "description": "item.nether_wart",
+    "id": 372,
+    "name": "nether_wart"
+  },
+  {
+    "description": "item.beetroot_seeds",
+    "id": 458,
+    "name": "beetroot_seeds"
+  },
+  {
+    "description": "item.iron_shovel",
+    "id": 256,
+    "name": "iron_shovel"
+  },
+  {
+    "description": "item.iron_pickaxe",
+    "id": 257,
+    "name": "iron_pickaxe"
+  },
+  {
+    "description": "item.iron_axe",
+    "id": 258,
+    "name": "iron_axe"
+  },
+  {
+    "description": "item.flint_and_steel",
+    "id": 259,
+    "name": "flint_and_steel"
+  },
+  {
+    "description": "item.bow",
+    "id": 261,
+    "name": "bow"
+  },
+  {
+    "description": "item.arrow",
+    "id": 262,
+    "name": "arrow"
+  },
+  {
+    "description": "item.coal",
+    "id": 263,
+    "name": "coal"
+  },
+  {
+    "description": "item.diamond",
+    "id": 264,
+    "name": "diamond"
+  },
+  {
+    "description": "item.iron_ingot",
+    "id": 265,
+    "name": "iron_ingot"
+  },
+  {
+    "description": "item.gold_ingot",
+    "id": 266,
+    "name": "gold_ingot"
+  },
+  {
+    "description": "item.iron_sword",
+    "id": 267,
+    "name": "iron_sword"
+  },
+  {
+    "description": "item.wooden_sword",
+    "id": 268,
+    "name": "wooden_sword"
+  },
+  {
+    "description": "item.wooden_shovel",
+    "id": 269,
+    "name": "wooden_shovel"
+  },
+  {
+    "description": "item.wooden_pickaxe",
+    "id": 270,
+    "name": "wooden_pickaxe"
+  },
+  {
+    "description": "item.wooden_axe",
+    "id": 271,
+    "name": "wooden_axe"
+  },
+  {
+    "description": "item.stone_sword",
+    "id": 272,
+    "name": "stone_sword"
+  },
+  {
+    "description": "item.stone_shovel",
+    "id": 273,
+    "name": "stone_shovel"
+  },
+  {
+    "description": "item.stone_pickaxe",
+    "id": 274,
+    "name": "stone_pickaxe"
+  },
+  {
+    "description": "item.stone_axe",
+    "id": 275,
+    "name": "stone_axe"
+  },
+  {
+    "description": "item.diamond_sword",
+    "id": 276,
+    "name": "diamond_sword"
+  },
+  {
+    "description": "item.diamond_shovel",
+    "id": 277,
+    "name": "diamond_shovel"
+  },
+  {
+    "description": "item.diamond_pickaxe",
+    "id": 278,
+    "name": "diamond_pickaxe"
+  },
+  {
+    "description": "item.diamond_axe",
+    "id": 279,
+    "name": "diamond_axe"
+  },
+  {
+    "description": "item.stick",
+    "id": 280,
+    "name": "stick"
+  },
+  {
+    "description": "item.bowl",
+    "id": 281,
+    "name": "bowl"
+  },
+  {
+    "description": "item.golden_sword",
+    "id": 283,
+    "name": "golden_sword"
+  },
+  {
+    "description": "item.golden_shovel",
+    "id": 284,
+    "name": "golden_shovel"
+  },
+  {
+    "description": "item.golden_pickaxe",
+    "id": 285,
+    "name": "golden_pickaxe"
+  },
+  {
+    "description": "item.golden_axe",
+    "id": 286,
+    "name": "golden_axe"
+  },
+  {
+    "description": "item.string",
+    "id": 287,
+    "name": "string"
+  },
+  {
+    "description": "item.feather",
+    "id": 288,
+    "name": "feather"
+  },
+  {
+    "description": "item.gunpowder",
+    "id": 289,
+    "name": "gunpowder"
+  },
+  {
+    "description": "item.wooden_hoe",
+    "id": 290,
+    "name": "wooden_hoe"
+  },
+  {
+    "description": "item.stone_hoe",
+    "id": 291,
+    "name": "stone_hoe"
+  },
+  {
+    "description": "item.iron_hoe",
+    "id": 292,
+    "name": "iron_hoe"
+  },
+  {
+    "description": "item.diamond_hoe",
+    "id": 293,
+    "name": "diamond_hoe"
+  },
+  {
+    "description": "item.golden_hoe",
+    "id": 294,
+    "name": "golden_hoe"
+  },
+  {
+    "description": "item.wheat",
+    "id": 296,
+    "name": "wheat"
+  },
+  {
+    "description": "item.leather_helmet",
+    "id": 298,
+    "name": "leather_helmet"
+  },
+  {
+    "description": "item.leather_chestplate",
+    "id": 299,
+    "name": "leather_chestplate"
+  },
+  {
+    "description": "item.leather_leggings",
+    "id": 300,
+    "name": "leather_leggings"
+  },
+  {
+    "description": "item.leather_boots",
+    "id": 301,
+    "name": "leather_boots"
+  },
+  {
+    "description": "item.chainmail_helmet",
+    "id": 302,
+    "name": "chainmail_helmet"
+  },
+  {
+    "description": "item.chainmail_chestplate",
+    "id": 303,
+    "name": "chainmail_chestplate"
+  },
+  {
+    "description": "item.chainmail_leggings",
+    "id": 304,
+    "name": "chainmail_leggings"
+  },
+  {
+    "description": "item.chainmail_boots",
+    "id": 305,
+    "name": "chainmail_boots"
+  },
+  {
+    "description": "item.iron_helmet",
+    "id": 306,
+    "name": "iron_helmet"
+  },
+  {
+    "description": "item.iron_chestplate",
+    "id": 307,
+    "name": "iron_chestplate"
+  },
+  {
+    "description": "item.iron_leggings",
+    "id": 308,
+    "name": "iron_leggings"
+  },
+  {
+    "description": "item.iron_boots",
+    "id": 309,
+    "name": "iron_boots"
+  },
+  {
+    "description": "item.diamond_helmet",
+    "id": 310,
+    "name": "diamond_helmet"
+  },
+  {
+    "description": "item.diamond_chestplate",
+    "id": 311,
+    "name": "diamond_chestplate"
+  },
+  {
+    "description": "item.diamond_leggings",
+    "id": 312,
+    "name": "diamond_leggings"
+  },
+  {
+    "description": "item.diamond_boots",
+    "id": 313,
+    "name": "diamond_boots"
+  },
+  {
+    "description": "item.mod_armor",
+    "id": 454,
+    "name": "mod_armor"
+  },
+  {
+    "description": "item.golden_helmet",
+    "id": 314,
+    "name": "golden_helmet"
+  },
+  {
+    "description": "item.golden_chestplate",
+    "id": 315,
+    "name": "golden_chestplate"
+  },
+  {
+    "description": "item.golden_leggings",
+    "id": 316,
+    "name": "golden_leggings"
+  },
+  {
+    "description": "item.golden_boots",
+    "id": 317,
+    "name": "golden_boots"
+  },
+  {
+    "description": "item.shield",
+    "id": 513,
+    "name": "shield"
+  },
+  {
+    "description": "item.flint",
+    "id": 318,
+    "name": "flint"
+  },
+  {
+    "description": "item.painting",
+    "id": 321,
+    "name": "painting"
+  },
+  {
+    "description": "item.sign",
+    "id": 323,
+    "name": "sign"
+  },
+  {
+    "description": "item.wooden_door",
+    "id": 324,
+    "name": "wooden_door"
+  },
+  {
+    "description": "item.bucket",
+    "id": 325,
+    "name": "bucket"
+  },
+  {
+    "description": "item.minecart",
+    "id": 328,
+    "name": "minecart"
+  },
+  {
+    "description": "item.saddle",
+    "id": 329,
+    "name": "saddle"
+  },
+  {
+    "description": "item.iron_door",
+    "id": 330,
+    "name": "iron_door"
+  },
+  {
+    "description": "item.redstone",
+    "id": 331,
+    "name": "redstone"
+  },
+  {
+    "description": "item.snowball",
+    "id": 332,
+    "name": "snowball"
+  },
+  {
+    "description": "item.boat",
+    "id": 333,
+    "name": "boat"
+  },
+  {
+    "description": "item.leather",
+    "id": 334,
+    "name": "leather"
+  },
+  {
+    "description": "item.kelp",
+    "id": 335,
+    "name": "kelp"
+  },
+  {
+    "description": "item.brick",
+    "id": 336,
+    "name": "brick"
+  },
+  {
+    "description": "item.clay_ball",
+    "id": 337,
+    "name": "clay_ball"
+  },
+  {
+    "description": "item.reeds",
+    "id": 338,
+    "name": "reeds"
+  },
+  {
+    "description": "item.paper",
+    "id": 339,
+    "name": "paper"
+  },
+  {
+    "description": "item.book",
+    "id": 340,
+    "name": "book"
+  },
+  {
+    "description": "item.slime_ball",
+    "id": 341,
+    "name": "slime_ball"
+  },
+  {
+    "description": "item.chest_minecart",
+    "id": 342,
+    "name": "chest_minecart"
+  },
+  {
+    "description": "item.egg",
+    "id": 344,
+    "name": "egg"
+  },
+  {
+    "description": "item.compass",
+    "id": 345,
+    "name": "compass"
+  },
+  {
+    "description": "item.fishing_rod",
+    "id": 346,
+    "name": "fishing_rod"
+  },
+  {
+    "description": "item.clock",
+    "id": 347,
+    "name": "clock"
+  },
+  {
+    "description": "item.glowstone_dust",
+    "id": 348,
+    "name": "glowstone_dust"
+  },
+  {
+    "description": "item.dye",
+    "id": 351,
+    "name": "dye"
+  },
+  {
+    "description": "item.bone",
+    "id": 352,
+    "name": "bone"
+  },
+  {
+    "description": "item.sugar",
+    "id": 353,
+    "name": "sugar"
+  },
+  {
+    "description": "item.cake",
+    "id": 354,
+    "name": "cake"
+  },
+  {
+    "description": "item.bed",
+    "id": 355,
+    "name": "bed"
+  },
+  {
+    "description": "item.repeater",
+    "id": 356,
+    "name": "repeater"
+  },
+  {
+    "description": "item.map",
+    "id": 358,
+    "name": "map"
+  },
+  {
+    "description": "item.shears",
+    "id": 359,
+    "name": "shears"
+  },
+  {
+    "description": "item.ender_pearl",
+    "id": 368,
+    "name": "ender_pearl"
+  },
+  {
+    "description": "item.blaze_rod",
+    "id": 369,
+    "name": "blaze_rod"
+  },
+  {
+    "description": "item.ghast_tear",
+    "id": 370,
+    "name": "ghast_tear"
+  },
+  {
+    "description": "item.gold_nugget",
+    "id": 371,
+    "name": "gold_nugget"
+  },
+  {
+    "description": "item.potion",
+    "id": 373,
+    "name": "potion"
+  },
+  {
+    "description": "item.glass_bottle",
+    "id": 374,
+    "name": "glass_bottle"
+  },
+  {
+    "description": "item.fermented_spider_eye",
+    "id": 376,
+    "name": "fermented_spider_eye"
+  },
+  {
+    "description": "item.blaze_powder",
+    "id": 377,
+    "name": "blaze_powder"
+  },
+  {
+    "description": "item.magma_cream",
+    "id": 378,
+    "name": "magma_cream"
+  },
+  {
+    "description": "item.brewing_stand",
+    "id": 379,
+    "name": "brewing_stand"
+  },
+  {
+    "description": "item.cauldron",
+    "id": 380,
+    "name": "cauldron"
+  },
+  {
+    "description": "item.ender_eye",
+    "id": 381,
+    "name": "ender_eye"
+  },
+  {
+    "description": "item.speckled_melon",
+    "id": 382,
+    "name": "speckled_melon"
+  },
+  {
+    "description": "item.spawn_egg",
+    "id": 383,
+    "name": "spawn_egg"
+  },
+  {
+    "description": "item.experience_bottle",
+    "id": 384,
+    "name": "experience_bottle"
+  },
+  {
+    "description": "item.fireball",
+    "id": 385,
+    "name": "fireball"
+  },
+  {
+    "description": "item.writable_book",
+    "id": 386,
+    "name": "writable_book"
+  },
+  {
+    "description": "item.written_book",
+    "id": 387,
+    "name": "written_book"
+  },
+  {
+    "description": "item.emerald",
+    "id": 388,
+    "name": "emerald"
+  },
+  {
+    "description": "item.frame",
+    "id": 389,
+    "name": "frame"
+  },
+  {
+    "description": "item.flower_pot",
+    "id": 390,
+    "name": "flower_pot"
+  },
+  {
+    "description": "item.emptyMap",
+    "id": 395,
+    "name": "emptymap"
+  },
+  {
+    "description": "item.skull",
+    "id": 397,
+    "name": "skull"
+  },
+  {
+    "description": "item.carrotOnAStick",
+    "id": 398,
+    "name": "carrotonastick"
+  },
+  {
+    "description": "item.netherStar",
+    "id": 399,
+    "name": "netherstar"
+  },
+  {
+    "description": "item.fireworks",
+    "id": 401,
+    "name": "fireworks"
+  },
+  {
+    "description": "item.fireworksCharge",
+    "id": 402,
+    "name": "fireworkscharge"
+  },
+  {
+    "description": "item.enchanted_book",
+    "id": 403,
+    "name": "enchanted_book"
+  },
+  {
+    "description": "item.comparator",
+    "id": 404,
+    "name": "comparator"
+  },
+  {
+    "description": "item.netherbrick",
+    "id": 405,
+    "name": "netherbrick"
+  },
+  {
+    "description": "item.quartz",
+    "id": 406,
+    "name": "quartz"
+  },
+  {
+    "description": "item.tnt_minecart",
+    "id": 407,
+    "name": "tnt_minecart"
+  },
+  {
+    "description": "item.hopper_minecart",
+    "id": 408,
+    "name": "hopper_minecart"
+  },
+  {
+    "description": "tile.hopper",
+    "id": 410,
+    "name": "hopper"
+  },
+  {
+    "description": "item.rabbit_foot",
+    "id": 414,
+    "name": "rabbit_foot"
+  },
+  {
+    "description": "item.rabbit_hide",
+    "id": 415,
+    "name": "rabbit_hide"
+  },
+  {
+    "description": "item.horsearmorleather",
+    "id": 416,
+    "name": "horsearmorleather"
+  },
+  {
+    "description": "item.horsearmoriron",
+    "id": 417,
+    "name": "horsearmoriron"
+  },
+  {
+    "description": "item.horsearmorgold",
+    "id": 418,
+    "name": "horsearmorgold"
+  },
+  {
+    "description": "item.horsearmordiamond",
+    "id": 419,
+    "name": "horsearmordiamond"
+  },
+  {
+    "description": "item.record_13",
+    "id": 500,
+    "name": "record_13"
+  },
+  {
+    "description": "item.record_cat",
+    "id": 501,
+    "name": "record_cat"
+  },
+  {
+    "description": "item.record_blocks",
+    "id": 502,
+    "name": "record_blocks"
+  },
+  {
+    "description": "item.record_chirp",
+    "id": 503,
+    "name": "record_chirp"
+  },
+  {
+    "description": "item.record_far",
+    "id": 504,
+    "name": "record_far"
+  },
+  {
+    "description": "item.record_mall",
+    "id": 505,
+    "name": "record_mall"
+  },
+  {
+    "description": "item.record_mellohi",
+    "id": 506,
+    "name": "record_mellohi"
+  },
+  {
+    "description": "item.record_stal",
+    "id": 507,
+    "name": "record_stal"
+  },
+  {
+    "description": "item.record_strad",
+    "id": 508,
+    "name": "record_strad"
+  },
+  {
+    "description": "item.record_ward",
+    "id": 509,
+    "name": "record_ward"
+  },
+  {
+    "description": "item.record_11",
+    "id": 510,
+    "name": "record_11"
+  },
+  {
+    "description": "item.record_wait",
+    "id": 511,
+    "name": "record_wait"
+  },
+  {
+    "description": "item.trident",
+    "id": 455,
+    "name": "trident"
+  },
+  {
+    "description": "item.lead",
+    "id": 420,
+    "name": "lead"
+  },
+  {
+    "description": "item.name_tag",
+    "id": 421,
+    "name": "name_tag"
+  },
+  {
+    "description": "item.prismarine_crystals",
+    "id": 422,
+    "name": "prismarine_crystals"
+  },
+  {
+    "description": "item.muttonRaw",
+    "id": 423,
+    "name": "muttonraw"
+  },
+  {
+    "description": "item.muttonCooked",
+    "id": 424,
+    "name": "muttoncooked"
+  },
+  {
+    "description": "item.armor_stand",
+    "id": 425,
+    "name": "armor_stand"
+  },
+  {
+    "description": "item.end_crystal",
+    "id": 426,
+    "name": "end_crystal"
+  },
+  {
+    "description": "item.spruce_door",
+    "id": 427,
+    "name": "spruce_door"
+  },
+  {
+    "description": "item.birch_door",
+    "id": 428,
+    "name": "birch_door"
+  },
+  {
+    "description": "item.jungle_door",
+    "id": 429,
+    "name": "jungle_door"
+  },
+  {
+    "description": "item.acacia_door",
+    "id": 430,
+    "name": "acacia_door"
+  },
+  {
+    "description": "item.dark_oak_door",
+    "id": 431,
+    "name": "dark_oak_door"
+  },
+  {
+    "description": "item.chorus_fruit",
+    "id": 432,
+    "name": "chorus_fruit"
+  },
+  {
+    "description": "item.chorus_fruit_popped",
+    "id": 433,
+    "name": "chorus_fruit_popped"
+  },
+  {
+    "description": "item.dragon_breath",
+    "id": 437,
+    "name": "dragon_breath"
+  },
+  {
+    "description": "item.splash_potion",
+    "id": 438,
+    "name": "splash_potion"
+  },
+  {
+    "description": "item.lingering_potion",
+    "id": 441,
+    "name": "lingering_potion"
+  },
+  {
+    "description": "item.command_block_minecart",
+    "id": 443,
+    "name": "command_block_minecart"
+  },
+  {
+    "description": "item.elytra",
+    "id": 444,
+    "name": "elytra"
+  },
+  {
+    "description": "item.prismarine_shard",
+    "id": 409,
+    "name": "prismarine_shard"
+  },
+  {
+    "description": "item.shulker_shell",
+    "id": 445,
+    "name": "shulker_shell"
+  },
+  {
+    "description": "item.banner",
+    "id": 446,
+    "name": "banner"
+  },
+  {
+    "description": "item.totem",
+    "id": 450,
+    "name": "totem"
+  },
+  {
+    "description": "item.iron_nugget",
+    "id": 452,
+    "name": "iron_nugget"
+  },
+  {
+    "description": "item.nautilus_shell",
+    "id": 465,
+    "name": "nautilus_shell"
+  },
+  {
+    "description": "item.heart_of_the_sea",
+    "id": 467,
+    "name": "heart_of_the_sea"
+  },
+  {
+    "description": "item.turtle_shell_piece",
+    "id": 468,
+    "name": "turtle_shell_piece"
+  },
+  {
+    "description": "item.turtle_helmet",
+    "id": 469,
+    "name": "turtle_helmet"
+  },
+  {
+    "description": "item.phantom_membrane",
+    "id": 470,
+    "name": "phantom_membrane"
+  },
+  {
+    "description": "item.crossbow",
+    "id": 471,
+    "name": "crossbow"
+  },
+  {
+    "description": "item.spruce_sign",
+    "id": 472,
+    "name": "spruce_sign"
+  },
+  {
+    "description": "item.birch_sign",
+    "id": 473,
+    "name": "birch_sign"
+  },
+  {
+    "description": "item.jungle_sign",
+    "id": 474,
+    "name": "jungle_sign"
+  },
+  {
+    "description": "item.acacia_sign",
+    "id": 475,
+    "name": "acacia_sign"
+  },
+  {
+    "description": "item.darkoak_sign",
+    "id": 476,
+    "name": "darkoak_sign"
+  },
+  {
+    "description": "item.banner_pattern",
+    "id": 434,
+    "name": "banner_pattern"
+  },
+  {
+    "description": "tile.campfire",
+    "id": 720,
+    "name": "campfire"
+  },
+  {
+    "description": "item.compound",
+    "id": 499,
+    "name": "compound"
+  },
+  {
+    "description": "item.mod",
+    "id": 456,
+    "name": "mod"
+  },
+  {
+    "description": "item.mod_ex",
+    "id": 498,
+    "name": "mod_ex"
+  },
+  {
+    "description": "item.ice_bomb",
+    "id": 453,
+    "name": "ice_bomb"
+  },
+  {
+    "description": "item.bleach",
+    "id": 451,
+    "name": "bleach"
+  },
+  {
+    "description": "item.rapid_fertilizer",
+    "id": 449,
+    "name": "rapid_fertilizer"
+  },
+  {
+    "description": "item.balloon",
+    "id": 448,
+    "name": "balloon"
+  },
+  {
+    "description": "item.medicine",
+    "id": 447,
+    "name": "medicine"
+  },
+  {
+    "description": "item.sparkler",
+    "id": 442,
+    "name": "sparkler"
+  },
+  {
+    "description": "item.glow_stick",
+    "id": 166,
+    "name": "glow_stick"
+  }
+]

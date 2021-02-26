@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="JumpFlee" binder="JumpFlee">
+    <branch type="FollowSequence">
+        <branch type="FollowSelector">
+            <branch type="ReverseNode">
+                <leaf type="TargetPlayerStateCheck"/>
+            </branch>
+            <leaf type="TargetDeadCheck"/>
+            <leaf type="TargetLostCheck"/>
+        </branch>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+    <branch type="FollowSequence">
+        <!-- 找迴避點 -->
+        <leaf type="EntityFindAvoidPositionAction">
+            <config key="CheckDistance" val="8F"/>
+        </leaf>
+        <!-- 路径检查 -->
+        <leaf type="FollowPositionByPassChoose"/>
+        <!-- 移动 -->
+        <leaf type="EntityJumpToPosition">
+            <config key="jumpForce" val="15F"/>
+            <config key="jumpHeight" val="2F"/>
+        </leaf>
+        <leaf type="EntitySwimAction"/>
+    </branch>
+    <branch type="FollowSequence">
+        <leaf type="AbortdActionTree"/>
+    </branch>
+</action>

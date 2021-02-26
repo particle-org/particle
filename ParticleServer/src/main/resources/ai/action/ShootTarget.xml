@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="ShootTarget" binder="ShootTarget">
+    <branch type="FollowSelector">
+        <branch type="FollowSequence">
+            <branch type="FollowSelector">
+                <branch type="ReverseNode">
+                    <leaf type="TargetPlayerStateCheck"/>
+                </branch>
+                <leaf type="TargetDeadCheck"/>
+                <leaf type="TargetLostCheck"/>
+            </branch>
+            <leaf type="AbortdActionTree"/>
+        </branch>
+        <branch type="FollowSelector">
+            <!-- 盯着目标一段时间 -->
+            <branch type="FollowSequence">
+                <leaf type="EntityStayInStateCheck">
+                    <config key="StateInterval" val="2000L"/>
+                </leaf>
+                <leaf type="EntityFocuseTarget"/>
+            </branch>
+            <!-- 攻击目标，并结束 -->
+            <branch type="FollowSequence">
+                <leaf type="EntityShootTarget">
+                    <config key="Weapon" val="minecraft:tnt"/>
+                </leaf>
+                <leaf type="AbortdActionTree"/>
+            </branch>
+        </branch>
+    </branch>
+</action>

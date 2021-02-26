@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="ReadyExplode" binder="ReadyExplode">
+    <branch type="FollowSelector">
+        <branch type="FollowSequence">
+            <branch type="ReverseNode">
+                <leaf type="EntityStayInStateCheck">
+                    <config key="StateInterval" val="1500L"/>
+                </leaf>
+            </branch>
+            <leaf type="EntityExplosion"/>
+            <leaf type="EntityDespawnAction"/>
+            <leaf type="AbortdActionTree"/>
+        </branch>
+        <!-- 若不在指定內 則取消爆炸並結束該行為 -->
+        <branch type="FollowSequence">
+            <branch type="ReverseNode">
+                <leaf type="NearPlayerSeeker">
+                    <config key="CheckDistance" val="7F"/>
+                </leaf>
+                <leaf type="TargetNearCheck">
+                    <config key="CheckDistance" val="7F"/>
+                </leaf>
+            </branch>
+            <leaf type="ExplosionAnimationSeeker">
+                <config key="isExploding" val="False"/>
+            </leaf>
+            <leaf type="AbortdActionTree"/>
+        </branch>
+    </branch>
+</action>

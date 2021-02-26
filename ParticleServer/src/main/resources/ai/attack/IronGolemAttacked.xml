@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 鐵巨人被攻击反应的配置 -->
+<underAttack id="AttackIfUnderAttack" binder="minecraft:iron_golem">
+    <!-- 顺序执行子节点 -->
+    <branch type="FollowSequence">
+        <!-- 将攻击者设置为目标 -->
+        <leaf type="SetCriminalAsEntityTarget"/>
+        <!-- 若搜索成功，则攻击该玩家 -->
+        <leaf type="EntityDecisionMaker">
+            <config key="Decision" val="TargetAttack"/>
+        </leaf>
+    </branch>
+</underAttack>

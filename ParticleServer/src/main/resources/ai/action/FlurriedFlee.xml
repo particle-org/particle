@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="FlurriedFlee" binder="FlurriedFlee">
+    <!-- 持續指定秒數的慌亂 -->
+    <branch type="FollowSequence">
+        <branch type="ReverseNode">
+            <leaf type="EntityStayInStateCheck">
+                <config key="StateInterval" val="10000L"/>
+            </leaf>
+        </branch>
+        <leaf type="SetEntityFlurriedStatus">
+            <config key="isFlurried" val="False"/>
+        </leaf>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+    <branch type="FollowSequence">
+        <!-- 四處亂跑 -->
+        <branch type="FollowSelector">
+            <leaf type="FollowPositionChoose"/>
+            <!-- 如果被卡主，则关闭树 -->
+            <leaf type="RandomMovePositionSeeker">
+                <config key="Range" val="3F"/>
+            </leaf>
+        </branch>
+        <!-- 移动 -->
+        <leaf type="EntityMoveToPosition"/>
+        <leaf type="EntitySwimAction"/>
+        <branch type="FollowSequence">
+            <leaf type="EntityArrivedPositionCheck"/>
+        </branch>
+        <leaf type="RandomMovePositionSeeker">
+            <config key="Range" val="3F"/>
+        </leaf>
+    </branch>
+</action>

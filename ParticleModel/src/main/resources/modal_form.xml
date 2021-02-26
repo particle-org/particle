@@ -1,0 +1,10 @@
+<form-layout type="modal" title="title" text="text" id="id2">
+    <button-view text="text" id="id1">
+
+    </button-view>
+
+    <button-view text="text" id="id2">
+
+    </button-view>
+
+</form-layout>

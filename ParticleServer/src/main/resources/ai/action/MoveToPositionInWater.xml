@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="MoveToPositionInWater" binder="MoveToPositionInWater">
+    <branch type="FollowSequence">
+        <branch type="ReverseNode">
+            <leaf type="EntityInWaterCheck"/>
+        </branch>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+    <branch type="FollowSequence">
+        <!-- 路径检查 -->
+        <leaf type="FollowPositionChoose"/>
+        <!-- 移动 -->
+        <leaf type="EntityMoveToPosition"/>
+        <branch type="FollowSequence">
+            <leaf type="EntityArrivedPositionCheck"/>
+            <leaf type="AbortdActionTree"/>
+        </branch>
+    </branch>
+</action>

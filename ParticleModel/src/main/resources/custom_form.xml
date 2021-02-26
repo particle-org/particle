@@ -1,0 +1,16 @@
+<form-layout type="custom_form" title="title" image-type="path" image-value="textures/items/diamond_pickaxe"
+             id="id1" onClose="" onSubmit="">
+    <dropdown text="text" default="0" id="id2">
+        <option value="value1" display="display1"></option>
+        <option value="value2" display="display2"></option>
+    </dropdown>
+
+    <input placeholder="place" default="default" text="input" id="id3"></input>
+    <label text="label" id="idlable"></label>
+    <slider min="0" max="100" step="10" default="20" text="slider" id="id4"></slider>
+    <step_slider default="20" text="step_slider" id="id5">
+        <step text="0"></step>
+        <step text="2"></step>
+    </step_slider>
+    <toggle default="true" text="toggle" id="id6"></toggle>
+</form-layout>

@@ -1,0 +1,17 @@
+<form-layout type="simple_form" title="title" text="text" id="id3" onClose="onClose">
+    <button-view text="aaaa\nb" image-type="url"
+                 image-value="http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg"
+                 id="id1" onClick="onClick" isShow="true" permission="">
+
+    </button-view>
+
+    <button-view text="a334124\nb" image-type="path" image-value="textures/items/diamond_pickaxe" id="id2"
+                 onClick="onClick" isShow="true" permission="">
+
+    </button-view>
+
+    <button-view text="a1123123\nb" image-type="path" image-value="textures/items/diamond_pickaxe" id="id3"
+                 onClick="onClick" isShow="true" permission="">
+
+    </button-view>
+</form-layout>

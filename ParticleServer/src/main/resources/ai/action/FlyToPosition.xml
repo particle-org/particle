@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="FlyToPosition" binder="FlyToPosition">
+    <branch type="FollowSequence">
+        <branch type="FollowSelector">
+            <branch type="FollowSequence">
+                <leaf type="FollowPositionFlyChoose"/>
+                <leaf type="EntityMoveToPosition"/>
+            </branch>
+            <leaf type="AbortdActionTree"/>
+        </branch>
+        <branch type="FollowSequence">
+            <leaf type="EntityArrivedPositionCheck"/>
+            <leaf type="AbortdActionTree"/>
+        </branch>
+    </branch>
+</action>

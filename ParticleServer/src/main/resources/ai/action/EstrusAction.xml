@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="EstrusAction" binder="EstrusAction">
+    <!-- 生物状态检查，如果已经处于发情状态，则不进行任何操作 -->
+    <branch type="FollowSequence">
+        <branch type="ReverseNode">
+            <leaf type="EntityStateCheck">
+                <config key="EntityState" val="EstrusStatus"/>
+            </leaf>
+        </branch>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+    <!-- 目标合法性检查 -->
+    <branch type="FollowSequence">
+        <branch type="ReverseNode">
+            <leaf type="EntityBlindDateCheck"/>
+        </branch>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+    <!-- 发情业务 -->
+    <branch type="FollowSequence">
+        <!-- 目标距离检查 -->
+        <leaf type="TargetNearCheck">
+            <config key="CheckDistance" val="16F"/>
+        </leaf>
+        <!-- 移动决策 -->
+        <leaf type="PositionTargetMakerByBlindEntity"/>
+        <leaf type="FollowPositionByPassChoose"/>
+        <!-- 移动操作 -->
+        <leaf type="EntitySwimAction"/>
+        <leaf type="EntityMoveToPosition"/>
+        <!-- 目标相遇检查 -->
+        <leaf type="EntityStayInPositionCheck">
+            <config key="CheckDistance" val="2F"/>
+            <config key="StayTimestamp" val="5000L"/>
+        </leaf>
+        <!-- 生小孩 -->
+        <leaf type="MobEntityCreateBabyAction">
+            <config key="ScaleRate" val="0.5F"/>
+        </leaf>
+        <leaf type="EntityStateDisableAction">
+            <config key="EntityState" val="EstrusStatus"/>
+        </leaf>
+        <leaf type="AbortdActionTree"/>
+    </branch>
+</action>

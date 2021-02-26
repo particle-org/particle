@@ -1,0 +1,138 @@
+package com.particle.model.entity.metadata;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public enum EntityMetadataType {
+    FLAGS(0),
+    HEALTH(1),
+    VARIANT(2),
+    COLOR(3),
+    NAMETAG(4),
+    OWNER_EID(5),
+    TARGET_EID(6),
+    AIR(7),
+    POTION_COLOR(8),
+    POTION_AMBIENT(9),
+    JUMP_DURATION(10),
+    HURT_TIME(11),
+    HURT_DIRECTION(12),
+    PADDLE_TIME_LEFT(13),
+    PADDLE_TIME_RIGHT(14),
+    EXPERIENCE_VALUE(15),
+    MINECART_DISPLAY_BLOCK(16),
+    MINECART_DISPLAY_OFFSET(17),
+    MINECART_HAS_DISPLAY(18),
+    ENDERMAN_HELD_ITEM_ID(23),
+    PLAYER_FLAGS(26),
+    PLAYER_BED_POSITION(28),
+    FIREBALL_POWER_X(29),
+    FIREBALL_POWER_Y(30),
+    FIREBALL_POWER_Z(31),
+    POTION_AUX_VALUE(36),
+    LEAD_HOLDER_EID(37),
+    SCALE(38),
+    HAS_NPC(39),
+    NPC_SKIN_INDEX(40),
+    NPC_ACTIONS(41),
+    MAX_AIR(42),
+    MARK_VARIANT(43),
+    CONTAINER_TYPE(44),
+    CONTAINER_SIZE(45),
+    CONTAINER_STRENGTH_MODIFIER(46),
+    BLOCK_TARGET(47),
+    WITHER_INVULNERABLE_TICKS(48),
+    WITHER_TARGET_1(49),
+    WITHER_TARGET_2(50),
+    WITHER_TARGET_3(51),
+    AERIAL_ATTACK(52),
+    BOUNDING_BOX_WIDTH(53),
+    BOUNDING_BOX_HEIGHT(54),
+    FUSE_LENGTH(55),
+    RIDER_SEAT_POSITION(56),
+    RIDER_ROTATION_LOCKED(57),
+    RIDER_MAX_ROTATION(58),
+    RIDER_MIN_ROTATION(59),
+    AREA_EFFECT_CLOUD_RADIUS(60),
+    AREA_EFFECT_CLOUD_WAITING(61),
+    AREA_EFFECT_CLOUD_PARTICLE_ID(62),
+    PEEK_ID(63),
+    ATTACH_FACE(64),
+    ATTACHED(65),
+    ATTACH_POS(66),
+    TRADING_PLAYER_EID(67),
+    CAREER(68),
+    HAS_COMMAND_BLOCK(69),
+    COMMAND_BLOCK_COMMAND(70),
+    COMMAND_BLOCK_LAST_OUTPUT(71),
+    COMMAND_BLOCK_TRACK_OUTPUT(72),
+    CONTROLLING_SEAT_INDEX(73),
+    STRENGTH(74),
+    STRENGTH_MAX(75),
+    DATA_SPELL_CASTING_COLOR(76),
+    DATA_LIFETIME_TICKS(77),
+    POSE_INDEX(78),
+    DATA_TICK_OFFSET(79),
+    NAMETAG_ALWAYS_SHOW(80),
+    COLOR_2_INDEX(81),
+    NAME_AUTHOR(82),
+    SCORE(83),
+    BALLOON_ANCHOR(84),
+    PUFFED_STATE(85),
+    BUBBLE_TIME(86),
+    AGENT(87),
+    SITTING_AMOUNT(88),
+    SITTING_AMOUNT_PREVIOUS(89),
+    EATING_COUNTER(90),
+    FLAGS2(91),
+    LAYING_AMOUNT(92),
+    LAYING_AMOUNT_PREVIOUS(93),
+    DURATION(94),
+    SPAWN_TIME(95),
+    CHANGE_RATE(96),
+    CHANGE_ON_PICKUP(97),
+    PICKUP_COUNT(98),
+    INTERACTIVE_TAG(99),
+    TRADE_TIER(100),
+    MAX_TRADE_TIER(101),
+    TRADE_EXPERIENCE(102),
+    SKIN_ID(103),
+    SPAWNING_FRAMES(104),
+    COMMAND_BLOCK_TICK_DELAY(105),
+    COMMAND_BLOCK_EXECUTE_ON_FIRST_TICK(106),
+    AMBIENT_SOUND_INTERVAL(107),
+    AMBIENT_SOUND_INTERVAL_RANGE(108),
+    AMBIENT_SOUND_EVENT_NAME(109),
+    FALL_DAMAGE_MULTIPLIER(110),
+    NAME_RAW_TEXT(111),
+    CAN_RIDE_TARGET(112),
+    LOW_TIER_CURED_TRADE_DISCOUNT(113),
+    HIGH_TIER_CURED_TRADE_DISCOUNT(114),
+    NEARBY_CURED_TRADE_DISCOUNT(115),
+    NEARBY_CURED_DISCOUNT_TIME_STAMP(116),
+    HITBOX(117),
+    IS_BUOYANT(118),
+    BUOYANCY_DATA(119);
+
+    private static Map<Integer, EntityMetadataType> dictionary = new HashMap<>();
+
+    static {
+        for (EntityMetadataType metadataType : EntityMetadataType.values()) {
+            dictionary.put(metadataType.value(), metadataType);
+        }
+    }
+
+    private int type;
+
+    private EntityMetadataType(int type) {
+        this.type = type;
+    }
+
+    public int value() {
+        return this.type;
+    }
+
+    public static EntityMetadataType valueOf(int type) {
+        return dictionary.get(type);
+    }
+}

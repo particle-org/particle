@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 烈焰人的配置 -->
+<decision id="Blaze" binder="minecraft:blaze">
+    <!-- 顺序执行子节点 -->
+    <!--    <branch type="FollowSequence">-->
+    <!--        &lt;!&ndash; 搜索周围可攻击玩家 &ndash;&gt;-->
+    <!--        <leaf type="NearSurvivorTargetSeeker">-->
+    <!--            <config key="CheckDistance" val="16F" />-->
+    <!--        </leaf>-->
+    <!--        &lt;!&ndash; 若搜索成功，则攻击该玩家 &ndash;&gt;-->
+    <!--        <leaf type="EntityDecisionMaker">-->
+    <!--            <config key="Decision" val="BlazeAttack" />-->
+    <!--        </leaf>-->
+    <!--    </branch>-->
+    <!-- 随机选择下面子节点执行 -->
+    <branch type="WeightsProbability">
+        <!-- 随机飞向周围的某个地点 -->
+        <branch type="FollowSequence" weight="2">
+            <leaf type="RandomMovePositionSeeker">
+                <config key="SeekHeight" val="True"/>
+                <config key="Range" val="3F"/>
+            </leaf>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FlyToPosition"/>
+            </leaf>
+        </branch>
+        <!-- 随机看向周围某个地点 -->
+        <branch type="FollowSequence" weight="3">
+            <leaf type="RandomPositionSeeker">
+                <config key="SeekHeight" val="True"/>
+            </leaf>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FocusPosition"/>
+            </leaf>
+        </branch>
+    </branch>
+</decision>

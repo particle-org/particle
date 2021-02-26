@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 豬被交互的配置 -->
+<message id="CatBlindMessage" binder="minecraft:cat" message="Blind">
+    <!-- 生物状态检查 -->
+    <branch type="FollowSequence">
+        <!-- 当前处于发情状态 -->
+        <leaf type="EntityStateCheck">
+            <config key="EntityState" val="EstrusStatus"/>
+        </leaf>
+        <!-- 当前没有发情对象 -->
+        <branch type="ReverseNode">
+            <leaf type="EntityBlindDateCheck"/>
+        </branch>
+        <!-- 设置消息发送者为发情对象 -->
+        <leaf type="EntityBlindFromSpeakerAction"/>
+        <!-- 关闭当前树 -->
+        <leaf type="AbortdActionTree"/>
+    </branch>
+
+</message>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 守护者的配置 -->
+<decision id="Guardian" binder="minecraft:guardian">
+    <!-- 随机选择下面子节点执行 -->
+    <branch type="WeightsProbability">
+        <!-- 随机看向周围的GM玩家 -->
+        <branch type="FollowSequence" weight="1">
+            <leaf type="NearPlayerSeeker"/>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FocusEntityInWater"/>
+            </leaf>
+        </branch>
+        <!-- 随机走向周围的某个地点 -->
+        <branch type="FollowSequence" weight="6">
+            <leaf type="RandomMovePositionSeeker">
+                <config key="SeekHeight" val="True"/>
+                <config key="Range" val="3F"/>
+                <config key="TargetBlockType" val="minecraft:water"/>
+            </leaf>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="MoveToPositionInWater"/>
+            </leaf>
+        </branch>
+    </branch>
+</decision>

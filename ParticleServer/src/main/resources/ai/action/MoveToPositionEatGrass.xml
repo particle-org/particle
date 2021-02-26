@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="MoveToPositionEatGrass" binder="MoveToPositionEatGrass">
+    <branch type="FollowSequence">
+        <!-- 路径检查 -->
+        <leaf type="FollowPositionByPassChoose"/>
+        <!-- 移动 -->
+        <leaf type="EntityMoveToPosition"/>
+        <leaf type="EntitySwimAction"/>
+        <branch type="FollowSequence">
+            <leaf type="EntityArrivedPositionCheck"/>
+            <leaf type="EntityEatGrassAction">
+                <config key="eatRate" val="20"/>
+            </leaf>
+            <leaf type="AbortdActionTree"/>
+        </branch>
+    </branch>
+</action>
