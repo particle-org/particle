@@ -1,0 +1,12 @@
+{
+	"enableDetailLog":false,
+	"group":2,
+	"ip":"127.0.0.1",
+	"maxConnection":230,
+	"maxMtu":1200,
+	"needTcp":true,
+	"needUdp":true,
+	"onlyObt":true,
+	"port":19132,
+	"serverName":"Default"
+}

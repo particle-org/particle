@@ -1,0 +1,6 @@
+{
+	"enableOnlineCheck":false,
+	"illegalMessage":"发言包含不合法内容",
+	"onlineCheckApi":"",
+	"tooLongMessage":"发言内容过长！"
+}

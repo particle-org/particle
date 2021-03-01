@@ -1,0 +1,16 @@
+[
+	{
+		"additionDamage":10.0,
+		"additionDamageSpeed":10.0,
+		"autoDirection":false,
+		"boundBoxX":0.2,
+		"boundBoxY":0.2,
+		"boundBoxZ":0.2,
+		"damage":5.0,
+		"entityTemplate":"minecraft:wither_skull_dangerous",
+		"explosion":true,
+		"explosionPower":10.0,
+		"gravity":0.0,
+		"id":"weaponId"
+	}
+]

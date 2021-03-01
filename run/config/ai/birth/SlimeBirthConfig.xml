@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<birth id="SlimeBirthConfig" binder="Slime">
+    <leaf type="ScaleConfig">
+        <config key="Scale" val="3.8F" />
+    </leaf>
+</birth>

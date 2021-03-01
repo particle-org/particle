@@ -61,7 +61,9 @@ public class LoginPacketHandle extends PlayerPacketHandle<LoginPacket> {
                 if (loginPacket.isInProxy()) {
                     chainData = ProxyNeteaseLoginDecoder.decode(loginPacket.getChainData(), loginPacket.getPlayerData(), loginPacket.getProtocol());
                 } else {
-                    chainData = DirectNeteaseLoginDecoder.decode(loginPacket.getChainData(), loginPacket.getPlayerData(), loginPacket.getProtocol());
+                    // not allow
+                    server.close(player, "now allow direct connect by netease client");
+                    return;
                 }
             } else {
                 if (loginPacket.isInProxy()) {

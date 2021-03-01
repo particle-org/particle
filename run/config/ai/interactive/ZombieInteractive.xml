@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 僵尸被交互反应的配置 -->
+<interactive id="Gift" binder="minecraft:zombie_villager">
+    <!-- 顺序执行子节点 -->
+    <branch type="FollowSequence">
+        <!-- 检查是否手持物品 -->
+        <leaf type="EntityTargetHoldItemCheck">
+            <config key="Weapon" val="minecraft:golden_apple" />
+        </leaf>
+        <!-- 若检查成功，则变成村民 -->
+        <leaf type="EntityDespawnAction" />
+        <leaf type="MobEntitySpawnAction">
+            <config key="NetworkId" val="15" />
+        </leaf>
+        <leaf type="AbortdActionTree" />
+    </branch>
+</interactive>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="MoveToPosition" binder="MoveToPosition">
+    <branch type="FollowSequence">
+        <branch type="FollowSelector">
+            <!-- 路径检查 -->
+            <leaf type="FollowPositionByPassChoose" />
+            <!-- 路径检查不合法，则直接放弃执行 -->
+            <leaf type="AbortdActionTree" />
+        </branch>
+        <!-- 移动 -->
+        <leaf type="EntityMoveToPosition" />
+        <leaf type="EntitySwimAction" />
+        <branch type="FollowSequence">
+            <leaf type="EntityArrivedPositionCheck" />
+            <leaf type="AbortdActionTree" />
+        </branch>
+    </branch>
+</action>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 豬被交互的配置 -->
+<message id="CowBlindMessage" binder="minecraft:cow" message="Birth">
+    <!-- 生物状态检查 -->
+    <branch type="FollowSequence">
+        <!-- 当前处于发情状态 -->
+        <leaf type="EntityStateCheck" >
+            <config key="EntityState" val="EstrusStatus" />
+        </leaf>
+        <!-- 当前有发情对象 -->
+        <leaf type="EntityBlindDateCheck" />
+        <!-- 停止发情状态 -->
+        <leaf type="EntityStateDisableAction">
+            <config key="EntityState" val="EstrusStatus" />
+        </leaf>
+        <!-- 关闭当前树 -->
+        <leaf type="AbortdActionTree" />
+    </branch>
+
+</message>

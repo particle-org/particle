@@ -6,6 +6,7 @@ import com.particle.game.player.auth.decoder.DefaultPlayerDataDecoder;
 import com.particle.game.player.auth.model.ClientChainData;
 
 public class DirectNormalLoginHandle {
+
     public static ClientChainData decode(String chainDataString, String playerDataString, int protocolVersion) {
         ClientChainData chainData = new ClientChainData();
 

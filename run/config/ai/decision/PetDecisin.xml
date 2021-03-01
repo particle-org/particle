@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 宠物决策 -->
+<decision id="Pet" binder="Pet">
+    <!-- 顺序执行子节点 -->
+    <branch type="FollowSequence">
+        <!-- 检测持有者的状态 -->
+        <branch type="ReverseNode">
+            <leaf type="PetOwnerStateCheck" />
+        </branch>
+        <!-- 自杀 -->
+        <leaf type="EntityDespawnAction" />
+    </branch>
+    <branch type="FollowSequence">
+        <!-- 检测是否为持有者在骑乘 -->
+        <leaf type="PetIsRidedByOwnerCheck" />
+        <!-- 若搜索成功，则执行切换树 -->
+        <leaf type="EntityDecisionMaker">
+            <config key="Decision" val="PetRiding" />
+        </leaf>
+    </branch>
+    <!-- 如果有持有者，但是持有者不在骑乘状态，则追踪骑乘者 -->
+    <branch type="FollowSequence">
+        <leaf type="OwnTargetSeeker" />
+        <leaf type="EntityDecisionMaker">
+            <config key="Decision" val="PetFollow" />
+        </leaf>
+    </branch>
+</decision>

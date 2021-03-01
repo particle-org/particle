@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="JumpToPosition" binder="JumpToPosition">
+    <branch type="FollowSequence">
+        <leaf type="EntityMoveIntervalController" >
+            <config key="MoveInterval" val="1000L" />
+        </leaf>
+        <!-- 路径检查 -->
+        <leaf type="FollowPositionByPassChoose" />
+        <!-- 移动 -->
+        <leaf type="EntityJumpToPosition" >
+            <config key="jumpForce" val="5F" />
+            <config key="jumpHeight" val="5F" />
+        </leaf>
+        <leaf type="EntitySwimAction" />
+        <branch type="FollowSequence">
+            <leaf type="EntityArrivedPositionCheck">
+                <config key="CheckDistance" val="1.5F" />
+            </leaf>
+            <leaf type="AbortdActionTree" />
+        </branch>
+    </branch>
+</action>

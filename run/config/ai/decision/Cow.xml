@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 牛的配置 -->
+<decision id="Cow" binder="minecraft:cow">
+    <!-- 檢查是否發情狀態 -->
+    <branch type="FollowSequence">
+        <!-- 如果处于发情状态，则切换到发情行为树 -->
+        <leaf type="EntityStateCheck" >
+            <config key="EntityState" val="EstrusStatus" />
+        </leaf>
+        <!-- 尝试寻找目标 -->
+        <leaf type="EntityBlindDateAction2" >
+            <config key="CheckDistance" val="16F" />
+        </leaf>
+        <leaf type="EntityDecisionMaker">
+            <config key="Decision" val="EstrusAction" />
+        </leaf>
+    </branch>
+    <!-- 檢查是否狂亂狀態 -->
+    <branch type="FollowSequence">
+        <leaf type="EntityFlurriedStatusCheck" />
+        <leaf type="EntityDecisionMaker">
+            <config key="Decision" val="FlurriedFlee" />
+        </leaf>
+    </branch>
+    <branch type="FollowSequence">
+        <leaf type="SearchItemInHandSeeker">
+            <config key="CheckDistance" val="8F" />
+            <config key="itemInHand"  val="minecraft:wheat"  />
+        </leaf>
+        <leaf type="TargetNearCheck">
+            <config key="CheckDistance" val="8F" />
+        </leaf>
+        <leaf type="EntityDecisionMaker">
+            <config key="Decision" val="TargetFollow" />
+        </leaf>
+    </branch>
+    <!-- 随机选择下面子节点执行 -->
+    <branch type="WeightsProbability">
+        <!-- 随机看向周围的GM玩家 -->
+        <branch type="FollowSequence" weight="3">
+            <leaf type="NearPlayerSeeker" />
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FocusEntity" />
+            </leaf>
+        </branch>
+        <!-- 随机走向周围的某个地点 -->
+        <branch type="FollowSequence" weight="12">
+            <leaf type="RandomMovePositionSeeker">
+                <config key="Range" val="5F" />
+            </leaf>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="MoveToPosition" />
+            </leaf>
+        </branch>
+        <!-- 随机看向周围某个地点 -->
+        <branch type="FollowSequence" weight="7">
+            <leaf type="RandomPositionSeeker" />
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FocusPosition" />
+            </leaf>
+        </branch>
+    </branch>
+</decision>

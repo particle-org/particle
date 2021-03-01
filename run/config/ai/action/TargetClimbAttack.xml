@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="TargetClimbAttack" binder="TargetClimbAttack">
+    <branch type="FollowSelector">
+        <branch type="FollowSequence">
+            <branch type="FollowSelector">
+                <branch type="ReverseNode">
+                    <leaf type="TargetPlayerStateCheck" />
+                </branch>
+                <leaf type="TargetDeadCheck" />
+                <leaf type="TargetLostCheck" />
+            </branch>
+            <leaf type="AbortdActionTree" />
+        </branch>
+        <branch type="FollowSequence">
+            <!-- 追踪 -->
+            <leaf type="PositionTargetMakerByEntity" />
+            <branch type="FollowSelector">
+                <branch type="FollowSequence">
+                    <leaf type="FollowPositionChoose" />
+                    <leaf type="EntityMoveToPosition" />
+                </branch>
+                <branch type="FollowSequence">
+                    <leaf type="FollowPositionFlutterChoose" />
+                    <leaf type="EntityClimbToPosition" />
+                </branch>
+            </branch>
+            <leaf type="EntitySwimAction" />
+            <!-- 盯着目标 -->
+            <leaf type="EntityFocuseTarget" />
+            <!-- 攻击 -->
+            <leaf type="TargetNearCheck">
+                <config key="CheckDistance" val="1.5F" />
+            </leaf>
+            <leaf type="EntityJumpAttackTarget" />
+        </branch>
+    </branch>
+</action>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 豬被交互的配置 -->
+<interactive id="Feeding" binder="minecraft:sheep">
+    <!-- 生物状态检查，如果已经处于发情状态，则不进行任何操作 -->
+    <leaf type="EntityStateCheck" >
+        <config key="EntityState" val="EstrusStatus" />
+    </leaf>
+    <!-- 喂食 -->
+    <branch type="FollowSequence">
+        <!-- 检查手持小麦 -->
+        <leaf type="EntityTargetHoldItemCheck">
+            <config key="Weapon"  val="minecraft:wheat" />
+        </leaf>
+        <!-- 生长或发情 -->
+        <branch type="FollowSelector">
+            <branch type="FollowSequence">
+                <!-- 檢查是否 baby -->
+                <leaf type="EntityBabyCheck" />
+                <leaf type="EntityFocuseTarget" />
+                <!-- 成長 -->
+                <leaf type="EntityGrowAction">
+                    <config key="growRate"  val="10" />
+                </leaf>
+                <leaf type="AbortdActionTree" />
+            </branch>
+            <branch type="FollowSequence">
+                <!-- 吃东西 -->
+                <leaf type="EntityStateEnableAction">
+                    <config key="EntityState" val="FullStatus" />
+                    <config key="ttl" val="60000L" />
+                </leaf>
+                <!-- 發情 -->
+                <leaf type="EntityStateEnableAction">
+                    <config key="EntityState" val="EstrusStatus" />
+                    <config key="updateInterval" val="500L" />
+                    <config key="ttl" val="60000L" />
+                </leaf>
+            </branch>
+        </branch>
+        <!-- 业务执行成功，则消耗物品 -->
+        <leaf type="EntityInteractorConsumeItemAction" />
+    </branch>
+    <!-- 剪刀剪羊毛 -->
+    <branch type="FollowSequence">
+        <!-- 检查手持剪刀 -->
+        <leaf type="EntityTargetHoldItemCheck">
+            <config key="Weapon"  val="minecraft:shears" />
+        </leaf>
+        <leaf type="EntityStateEnableAction">
+            <config key="EntityState" val="Sheared" />
+            <config key="updateInterval" val="1000L" />
+            <config key="ttl" val="60000L" />
+        </leaf>
+        <leaf type="EntityDropItemAction">
+            <config key="ItemPrototype"  val="minecraft:wool" />
+            <config key="Meta"  val="0" />
+            <config key="Count"  val="1" />
+        </leaf>
+    </branch>
+    <!-- 染色 -->
+    <branch type="FollowSequence">
+        <!-- 检查手持染料 -->
+        <leaf type="EntityTargetHoldItemCheck">
+            <config key="Weapon"  val="minecraft:dye" />
+        </leaf>
+        <leaf type="EntityDyeingAction" />
+        <!-- 业务执行成功，则消耗物品 -->
+        <leaf type="EntityInteractorConsumeItemAction" />
+    </branch>
+</interactive>

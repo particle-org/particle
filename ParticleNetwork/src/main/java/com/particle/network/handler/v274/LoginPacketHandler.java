@@ -14,6 +14,7 @@ public class LoginPacketHandler extends AbstractPacketHandler<LoginPacket> {
         if (protocol == 0) {
             protocol = dataPacket.readShort();
         }
+        // proxy version is above 1000
         if (protocol < 1000) {
             dataPacket.setInProxy(false);
         } else {

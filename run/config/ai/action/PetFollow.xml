@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="PetFollow" binder="PetFollow">
+    <branch type="FollowSequence">
+        <branch type="FollowSelector">
+            <branch type="ReverseNode">
+                <leaf type="TargetPlayerStateCheck" />
+            </branch>
+        </branch>
+        <leaf type="AbortdActionTree" />
+    </branch>
+    <branch type="FollowSequence">
+        <!-- 标记目的地 -->
+        <leaf type="PositionTargetMakerByEntity" />
+        <!-- 移动操作 -->
+        <branch type="FollowSelector">
+            <!-- 判断是否到达目的地 -->
+            <leaf type="EntityArrivedPositionCheck">
+                <config key="CheckDistance" val="4F" />
+            </leaf>
+
+            <branch type="FollowSelector">
+                <branch type="FollowSequence">
+                    <!-- 是否在追踪距离内 -->
+                    <leaf type="EntityArrivedPositionCheck">
+                        <config key="CheckDistance" val="16F" />
+                    </leaf>
+
+                    <!-- 追踪行为 -->
+                    <leaf type="FollowPositionByPassChoose" />
+                    <leaf type="EntityMoveToPosition" />
+                    <leaf type="EntitySwimAction" />
+                    <!-- 盯着目标 -->
+                    <leaf type="EntityFocuseTarget" />
+                </branch>
+
+                <branch type="FollowSequence">
+                    <leaf type="TeleportToTargetPositionChoose" />
+                    <leaf type="EntityMoveToPosition" />
+                </branch>
+            </branch>
+        </branch>
+    </branch>
+</action>

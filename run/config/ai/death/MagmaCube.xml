@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 僵尸的配置 -->
+<decision id="MagmaCube" binder="minecraft:magma_cube">
+    <!-- 顺序执行子节点 -->
+<!--    <branch type="FollowSequence">-->
+<!--        &lt;!&ndash; 搜索周围可攻击玩家 &ndash;&gt;-->
+<!--        <leaf type="NearSurvivorTargetSeeker" />-->
+<!--        &lt;!&ndash; 若搜索成功，则攻击该玩家 &ndash;&gt;-->
+<!--        <leaf type="EntityDecisionMaker">-->
+<!--            <config key="Decision" val="TargetJumpAttack" />-->
+<!--        </leaf>-->
+<!--    </branch>-->
+    <!-- 随机选择下面子节点执行 -->
+    <branch type="WeightsProbability">
+        <!-- 随机看向周围的GM玩家 -->
+        <branch type="FollowSequence" weight="3">
+            <leaf type="NearGmTargetSeeker" />
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FocusEntity" />
+            </leaf>
+        </branch>
+        <!-- 随机走向周围的某个地点 -->
+        <branch type="FollowSequence" weight="20">
+            <leaf type="RandomMovePositionSeeker">
+                <config key="Range" val="2F" />
+            </leaf>
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="JumpToPosition" />
+            </leaf>
+        </branch>
+        <!-- 随机看向周围某个地点 -->
+        <branch type="FollowSequence" weight="7">
+            <leaf type="RandomPositionSeeker" />
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FocusPosition" />
+            </leaf>
+        </branch>
+    </branch>
+</decision>

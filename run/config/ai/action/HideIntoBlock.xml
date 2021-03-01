@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="HideIntoBlock" binder="HideIntoBlock">
+    <branch type="FollowSequence">
+        <leaf type="EntityMoveToPosition" />
+        <leaf type="EntitySwimAction" />
+        <branch type="FollowSequence">
+            <leaf type="EntityArrivedPositionCheck">
+                <config key="CheckDistance" val="1.2F" />
+            </leaf>
+            <leaf type="EntityDespawnAction" />
+            <leaf type="AbortdActionTree" />
+        </branch>
+    </branch>
+</action>

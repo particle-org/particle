@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="TargetBlindDate" binder="TargetBlindDate">
+    <branch type="FollowSequence">
+        <branch type="ReverseNode">
+            <leaf type="EntityBlindDateCheck" />
+        </branch>
+        <leaf type="AbortdActionTree" />
+    </branch>
+    <branch type="FollowSequence">
+        <leaf type="TargetNearCheck">
+            <config key="CheckDistance" val="16F" />
+        </leaf>
+        <leaf type="PositionTargetMakerByEntity" />
+        <leaf type="FollowPositionByPassChoose" />
+        <!-- 移动 -->
+        <leaf type="EntitySwimAction" />
+        <leaf type="EntityMoveToPosition" />
+        <leaf type="EntityArrivedPositionCheck" >
+            <config key="CheckDistance" val="2F" />
+        </leaf>
+        <branch type="ReverseNode">
+            <leaf type="EntityStayInStateCheck">
+                <config key="StateInterval" val="5000L" />
+            </leaf>
+        </branch>
+        <leaf type="EntityBlindDateCheck" />
+        <leaf type="EntityEstrusCoolDownAction" />
+        <!-- 生小孩 -->
+        <leaf type="MobEntityCreateBabyAction">
+            <config key="ScaleRate" val="0.5F" />
+        </leaf>
+        <leaf type="AbortdActionTree" />
+    </branch>
+</action>

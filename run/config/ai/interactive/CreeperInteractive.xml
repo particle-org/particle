@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 苦力怕被交互引爆的配置 -->
+<interactive id="Detonate" binder="minecraft:creeper">
+    <!-- 顺序执行子节点 -->
+    <branch type="FollowSequence">
+        <!-- 检查手持打火石 -->
+        <leaf type="EntityTargetHoldItemCheck">
+            <config key="Weapon" val="minecraft:flint_and_steel" />
+        </leaf>
+        <!-- 引爆 -->
+        <leaf type="EntityExplosion" />
+        <leaf type="EntityDespawnAction" />
+        <leaf type="AbortdActionTree" />
+    </branch>
+</interactive>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="TargetRemoteAttack" binder="TargetRemoteAttack">
+    <branch type="FollowSelector">
+        <branch type="FollowSequence">
+            <branch type="FollowSelector">
+                <branch type="ReverseNode">
+                    <leaf type="TargetPlayerStateCheck" />
+                </branch>
+                <leaf type="TargetDeadCheck" />
+                <leaf type="TargetLostCheck" />
+            </branch>
+            <leaf type="AbortdActionTree" />
+        </branch>
+        <branch type="FollowSequence">
+            <!-- 追踪 -->
+            <branch type="FollowSelector">
+                <branch type="FollowSequence">
+                    <leaf type="TargetNearCheck">
+                        <config key="CheckDistance" val="5F" />
+                    </leaf>
+                    <leaf type="PositionTargetMakerByEntity" />
+                    <leaf type="EscapeEntityPositionChoose" />
+                    <leaf type="EntityMoveToPosition" />
+                </branch>
+                <branch type="FollowSequence">
+                    <leaf type="FollowPositionByPassChoose" />
+                    <leaf type="EntityMoveToPosition" />
+                </branch>
+            </branch>
+            <leaf type="EntitySwimAction" />
+            <!-- 盯着目标 -->
+            <leaf type="EntityFocuseTarget" />
+            <!-- 攻击 -->·
+            <leaf type="TargetNearCheck">
+                <config key="CheckDistance" val="12F" />
+            </leaf>
+            <leaf type="EntityShootTarget">
+                <config key="ShootPower" val="20F" />
+            </leaf>
+        </branch>
+    </branch>
+</action>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="PetRiding" binder="PetRiding">
+    <branch type="FollowSequence">
+        <branch type="ReverseNode">
+            <branch type="FollowSequence">
+                <leaf type="TargetPlayerStateCheck" />
+                <leaf type="PetIsRidedByOwnerCheck" />
+            </branch>
+        </branch>
+        <leaf type="AbortdActionTree" />
+    </branch>
+    <branch type="FollowSequence">
+        <!-- 移动 -->
+        <leaf type="EntitySwimAction" />
+        <!-- 追踪 -->
+        <leaf type="PlayerInputPositionChoose" />
+        <leaf type="EntityMoveToPosition" />
+    </branch>
+</action>

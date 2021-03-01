@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="FocusEntity" binder="FocusEntity">
+    <branch type="FollowSelector">
+        <branch type="FollowSequence">
+            <leaf type="EntityStayInStateCheck" >
+                <config key="StateInterval" val="2000L" />
+            </leaf>
+            <leaf type="EntitySwimAction" />
+            <leaf type="EntityFocuseTarget" />
+        </branch>
+        <leaf type="AbortdActionTree" />
+    </branch>
+</action>

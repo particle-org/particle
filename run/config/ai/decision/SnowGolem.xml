@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 雪巨人的配置 -->
+<decision id="SnowGolem" binder="minecraft:snow_golem">
+    <!-- 顺序执行子节点 -->
+    <branch type="FollowSequence">
+        <!-- 搜索周围的目標生物 -->
+        <leaf type="NearEntitySeeker" >
+            <config key="CheckDistance" val="10F" />
+            <config key="entityId" val="32" />
+            <config key="entityId" val="34" />
+            <config key="entityId" val="36" />
+            <config key="entityId" val="37" />
+            <config key="entityId" val="42" />
+            <config key="entityId" val="43" />
+            <config key="entityId" val="44" />
+        </leaf>
+        <!-- 若搜索成功，则遠距攻击该生物 -->
+        <leaf type="EntityDecisionMaker">
+            <config key="Decision" val="SnowGolemRemoteAttack" />
+        </leaf>
+    </branch>
+    <!-- 随机选择下面子节点执行 -->
+    <branch type="WeightsProbability">
+        <!-- 随机看向周围的GM玩家 -->
+        <branch type="FollowSequence" weight="3">
+            <leaf type="NearPlayerSeeker" />
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FocusEntity" />
+            </leaf>
+        </branch>
+        <!-- 随机走向周围的某个地点 -->
+        <branch type="FollowSequence" weight="2">
+            <leaf type="RandomMovePositionSeeker" />
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="MoveToPosition" />
+            </leaf>
+        </branch>
+        <!-- 随机看向周围某个地点 -->
+        <branch type="FollowSequence" weight="7">
+            <leaf type="RandomPositionSeeker" />
+            <leaf type="EntityDecisionMaker">
+                <config key="Decision" val="FocusPosition" />
+            </leaf>
+        </branch>
+    </branch>
+</decision>

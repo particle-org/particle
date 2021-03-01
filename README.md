@@ -13,9 +13,6 @@ Particle is **still developing** yet, welcome to contribute.
 
 only support version: under 1.16.0 currently, higher in the future.
 
-if you want to get authlib-test.jar, please contact me.
-
-
 Build JAR file
 -------------
 - `git clone https://github.com/particle-org/particle.git`

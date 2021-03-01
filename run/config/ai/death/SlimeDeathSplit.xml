@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<death id="SlimeDeathSplit" binder="Slime">
+    <branch type="FollowSequence">
+        <leaf type="EntitySizeCheck">
+            <config key="CheckScale" val="1.1F" />
+        </leaf>
+        <leaf type="MobEntitySpawnAction">
+            <config key="NetworkId" val="37" />
+            <config key="ScaleRate" val="0.5F" />
+        </leaf>
+        <leaf type="MobEntitySpawnAction">
+            <config key="NetworkId" val="37" />
+            <config key="ScaleRate" val="0.5F" />
+        </leaf>
+    </branch>
+</death>

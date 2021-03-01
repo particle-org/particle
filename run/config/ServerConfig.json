@@ -1,0 +1,11 @@
+{
+	"allow4DSkin":false,
+	"enableNeteaseAuth":false,
+	"enableSign":true,
+	"inventoryServerAuthoritative":true,
+	"movementServerAuthoritative":true,
+	"playerLoad":true,
+	"playerSave":true,
+	"saveOldData":true,
+	"version":"1.0.0"
+}

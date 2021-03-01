@@ -25,11 +25,6 @@
             <version>${particle-version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.netease.mc.pe</groupId>
-            <artifactId>authlib-test</artifactId>
-        </dependency>
-
         <!-- 依赖注入库 -->
         <dependency>
             <groupId>com.google.inject</groupId>

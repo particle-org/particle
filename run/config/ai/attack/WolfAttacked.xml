@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 狼被攻击反应的配置 -->
+<underAttack id="AttackIfUnderAttack" binder="minecraft:wolf">
+    <!-- 顺序执行子节点 -->
+    <branch type="FollowSequence">
+        <!-- 添加狂乱状态 -->
+        <leaf type="SetEntityFlurriedStatus" >
+            <config key="isFlurried" val="True" />
+        </leaf>
+        <leaf type="EntityDecisionMaker">
+            <config key="Decision" val="FlurriedFlee" />
+        </leaf>
+    </branch>
+</underAttack>

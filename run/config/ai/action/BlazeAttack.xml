@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="BlazeAttack" binder="BlazeAttack">
+    <branch type="FollowSelector">
+        <branch type="FollowSequence">
+            <branch type="FollowSelector">
+                <branch type="ReverseNode">
+                    <leaf type="TargetPlayerStateCheck" />
+                </branch>
+                <leaf type="TargetDeadCheck" />
+                <leaf type="TargetLostCheck">
+                    <config key="TraceDistance" val="16F" />
+                </leaf>
+            </branch>
+            <leaf type="AbortdActionTree" />
+        </branch>
+        <branch type="FollowSequence">
+            <!-- 追踪 -->
+            <leaf type="PositionTargetMakerByEntity" />
+            <leaf type="FollowPositionByPassChoose" />
+            <!-- 移动 -->
+            <leaf type="EntityMoveToPosition" />
+            <!-- 盯着目标 -->
+            <leaf type="EntityFocuseTarget" />
+            <branch type="FollowSelector">
+                <!-- 近战攻击 -->
+                <branch type="FollowSequence">
+                    <leaf type="TargetNearCheck">
+                        <config key="CheckDistance" val="2F" />
+                    </leaf>
+                    <leaf type="EntityAttackTarget" />
+                </branch>
+                <!-- 远程攻击
+                <branch type="FollowSequence">
+
+                    <leaf type="TargetNearCheck">
+                        <config key="CheckDistance" val="16F" />
+                    </leaf>
+                    <leaf type="EntityShootTarget">
+                        <config key="Weapon" val="minecraft:fireball" />
+                    </leaf>
+                </branch>
+                -->
+            </branch>
+        </branch>
+    </branch>
+</action>

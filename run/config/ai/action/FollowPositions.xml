@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<action id="FollowPositions" binder="FollowPositions">
+    <branch type="FollowSequence">
+        <leaf type="EntityRoadUpdater">
+            <config key="TraceDistance" val="20F" />
+        </leaf>
+        <!-- 路径检查 -->
+        <leaf type="FollowPositionByPassChoose" />
+        <!-- 移动 -->
+        <leaf type="EntityMoveToPosition" />
+        <leaf type="EntitySwimAction" />
+<!--        <leaf type="EntityRoadPointsMark" />-->
+    </branch>
+    <leaf type="AbortdActionTree" />
+</action>

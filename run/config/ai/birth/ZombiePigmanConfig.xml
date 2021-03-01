@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<birth id="ZombiePigmanConfig" binder="ZombiePigman">
+    <leaf type="ArmorConfig">
+        <config key="Weapon" val="minecraft:golden_sword" />
+    </leaf>
+</birth>

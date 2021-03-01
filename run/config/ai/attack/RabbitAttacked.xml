@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 兔子被攻击反应的配置 -->
+<underAttack id="AttackIfUnderAttack" binder="minecraft:rabbit">
+    <!-- 顺序执行子节点 -->
+    <branch type="FollowSequence">
+        <leaf type="EntityDecisionMaker">
+            <config key="Decision" val="FlurriedFlee" />
+        </leaf>
+    </branch>
+</underAttack>
