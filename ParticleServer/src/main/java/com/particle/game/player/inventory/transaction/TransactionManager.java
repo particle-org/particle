@@ -4,7 +4,9 @@ import com.particle.api.server.PrisonServiceProviderApi;
 import com.particle.event.dispatcher.EventDispatcher;
 import com.particle.game.block.enchantment.AnvilService;
 import com.particle.game.block.enchantment.EnchantmentService;
+import com.particle.game.entity.attribute.identified.EntityNameService;
 import com.particle.game.item.ItemDropService;
+import com.particle.game.player.PlayerService;
 import com.particle.game.player.craft.CraftService;
 import com.particle.game.player.inventory.InventoryManager;
 import com.particle.game.player.inventory.service.InventoryAPIProxy;
@@ -21,6 +23,7 @@ import com.particle.model.inventory.data.InventorySourceData;
 import com.particle.model.item.ItemStack;
 import com.particle.model.item.types.ItemPrototype;
 import com.particle.model.network.packets.data.ContainerClosePacket;
+import com.particle.model.player.GameMode;
 import com.particle.model.player.Player;
 import com.particle.model.utils.Pair;
 import com.particle.network.NetworkManager;
@@ -102,6 +105,12 @@ public class TransactionManager {
 
     @Inject
     private PrisonServiceProviderApi prisonServiceProviderApi;
+
+    @Inject
+    private PlayerService playerService;
+
+    @Inject
+    private EntityNameService entityNameService;
 
     private EventDispatcher eventDispatcher = EventDispatcher.getInstance();
 
@@ -401,6 +410,12 @@ public class TransactionManager {
             // 日志抓到sourceType可能为空，需要进一步检查，这里先行规避
             if (sourceType == null) {
                 continue;
+            }
+
+            // Verify the identity of the Creative Inventory
+            if(sourceType == InventorySourceType.CREATIVE && (playerService.getGameMode(player) != GameMode.CREATIVE && playerService.getGameMode(player) != GameMode.CREATIVE_VIEWER)){
+                LOGGER.error(String.format("player name: %s, player uuid: %s, sourceType is creative.", entityNameService.getEntityName(player), playerService.getPlayerUUID(player).toString()));
+                return null;
             }
 
             InventoryAction action = null;
